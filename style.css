@@ -455,6 +455,194 @@ a.nav-link {
 /*                                                                    */
 /**********************************************************************/
 
+.detalles__servicios .main__servicios {
+    font-size: 1.8rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+}
+
+.detalles__servicios p{
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+}
+
+.grid .grid__detalle {
+    grid-area: detalle;
+    font-size: 36px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+}
+
+.grid .grid__title1 {
+    grid-area: title1;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    color: black;
+
+}
+
+.grid .grid__title2 {
+    grid-area: title2;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title3 {
+    grid-area: title3;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title4 {
+    grid-area: title4;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title5 {
+    grid-area: title5;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+.grid .grid__title6 {
+    grid-area: title6;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title7 {
+    grid-area: title7;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+.grid .grid__title8 {
+    grid-area: title8;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title9 {
+    grid-area: title9;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+.grid .grid__title10 {
+    grid-area: title10;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+.grid .grid__title11 {
+    grid-area: title11;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__title12 {
+    grid-area: title12;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+}
+
+.grid .grid__img1 {
+    grid-area: img1;
+    width: 80px;
+    height: 80px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img2 {
+    grid-area: img2;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img3 {
+    grid-area: img3;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img4 {
+    grid-area: img4;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img5 {
+    grid-area: img5;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img6 {
+    grid-area: img6;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img7 {
+    grid-area: img7;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img8 {
+    grid-area: img8;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img9 {
+    grid-area: img9;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img10 {
+    grid-area: img10;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img11 {
+    grid-area: img11;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
+
+.grid .grid__img12 {
+    grid-area: img12;
+    width: 70px;
+    height: 70px;
+    border-radius: 1rem;
+}
 
 
     /* -------------FOOTER---------------- */
