@@ -19,9 +19,9 @@ header {
     display: flex;
 }
 
-.logo__header img {
+.logo__header .imagen__header {
     height: 15rem;
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
 }
 
 .titulo__header {
@@ -395,7 +395,7 @@ a.nav-link {
         justify-content: center;
     }
 
-    .logo__header img {
+    .logo__header .imagen__header {
         width: 8.7rem;
         height: 8.7rem;
     }
