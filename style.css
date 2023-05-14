@@ -20,9 +20,8 @@ header {
     display: flex;
 }
 
-.logo__header .imagen__header{
-    height: 13rem;
-    margin: 1.5rem;
+.index__logo img{
+    height: 10rem;
 }
 
 .titulo__header {
@@ -170,7 +169,7 @@ a.nav-link {
 }
 
 .logo__footer img {
-    width: 13rem;
+    width: 10rem;
 }
 
 .copyright__footer p {
