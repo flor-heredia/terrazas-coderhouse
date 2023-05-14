@@ -12,7 +12,7 @@ header {
     display: flex;
     flex-direction: row;
     font-family: 'Ubuntu Condensed', sans-serif;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
