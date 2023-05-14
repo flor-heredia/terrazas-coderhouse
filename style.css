@@ -449,16 +449,16 @@ a.nav-link {
     }
 
     .logo__header .imagen__header {
-        width: 8.7rem;
-        height: 8.7rem;
+        width: 7rem;
+        height: 7rem;
     }
 
     .titulo__header h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .titulo__header h2 {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     a.nav-link.active {
