@@ -8,22 +8,21 @@
 }
 
 
-header div {
+header {
     display: flex;
     flex-direction: row;
-    font-family:'Ubuntu Condensed', sans-serif;
-    justify-content: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    justify-content: space-between;
     align-items: center;
 }
 
-.imagen__header{
-    width: 13rem;
+.logo__header {
+    display: flex;
 }
 
-.titulo__header{
-    display: flex;
-    flex-direction: column;
-
+.imagen__header {
+    height: 15rem;
+    margin: 1.5rem;
 }
 
 .titulo__header {
@@ -38,19 +37,19 @@ header div {
 }
 
 .titulo__header h1 {
-    font-size: 35px;
+    font-size: 60px;
     color: black;
 }
 
 .titulo__header h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: black;
 }
 
 a.nav-link.active {
     margin: 1.4rem;
     color: black;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Ubuntu Condensed', sans-serif;
 
 }
@@ -59,7 +58,7 @@ a.nav-link {
     margin: 1.4rem;
     padding: 1rem;
     color: black;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Ubuntu Condensed', sans-serif
 }
 
