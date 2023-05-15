@@ -20,7 +20,7 @@ header {
     display: flex;
 }
 
-.index__logo img{
+.index__logo img {
     height: 11rem;
     margin: 1rem;
 }
@@ -248,7 +248,7 @@ a.nav-link {
     padding: 1rem;
 }
 
-.detalles__servicios p{
+.detalles__servicios p {
     font-size: 1.8rem;
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
@@ -256,10 +256,11 @@ a.nav-link {
 }
 
 
-.grid{
+.grid {
     margin: 1rem;
     padding: 1rem;
 }
+
 .grid .grid__detalle {
     grid-area: detalle;
     font-size: 36px;
@@ -296,6 +297,7 @@ a.nav-link {
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
 .grid .grid__title6 {
     grid-area: title6;
     font-size: x-large;
@@ -307,6 +309,7 @@ a.nav-link {
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
 .grid .grid__title8 {
     grid-area: title8;
     font-size: x-large;
@@ -318,11 +321,13 @@ a.nav-link {
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
 .grid .grid__title10 {
     grid-area: title10;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+
 .grid .grid__title11 {
     grid-area: title11;
     font-size: x-large;
@@ -449,7 +454,7 @@ a.nav-link {
         /* align-items: center; */
     }
 
-    .index__logo img{
+    .index__logo img {
         height: 6.5rem;
         margin: 0.5rem;
         /* padding: 0.5rem; */
@@ -462,7 +467,8 @@ a.nav-link {
     .titulo__header h2 {
         font-size: 0.6rem;
     }
-/* 
+
+    /* 
     .nav__index .nav-item a{
         margin: 0.5px;
     } */
@@ -472,14 +478,14 @@ a.nav-link {
         color: black;
         font-size: 0.8rem;
         font-family: 'Ubuntu Condensed', sans-serif;
-        margin: -15px;
+        margin: 0;
     }
 
     a.nav-link {
         color: black;
         font-size: 0.8rem;
         font-family: 'Ubuntu Condensed', sans-serif;
-        margin: -15px;
+        margin: 0;
     }
 
 
@@ -510,200 +516,204 @@ a.nav-link {
 
 
 
-/**********************************************************************/
-/*                                                                    */
-/*                            main servicios                        */
-/*                                                                    */
-/**********************************************************************/
+    /**********************************************************************/
+    /*                                                                    */
+    /*                            main servicios                        */
+    /*                                                                    */
+    /**********************************************************************/
 
-.detalles__servicios .main__servicios {
-    font-size: 1.8rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    margin: 1rem;
-    padding: 1rem;
-    color: black;
-}
+    .detalles__servicios .main__servicios {
+        font-size: 1.8rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin: 1rem;
+        padding: 1rem;
+        color: black;
+    }
 
-.detalles__servicios p{
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    margin: 1rem;
-    padding: 1rem;
-    color: black;
-}
+    .detalles__servicios p {
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin: 1rem;
+        padding: 1rem;
+        color: black;
+    }
 
-.grid .grid__detalle {
-    grid-area: detalle;
-    font-size: 36px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-align: center;
-}
+    .grid .grid__detalle {
+        grid-area: detalle;
+        font-size: 36px;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        text-align: center;
+    }
 
-.grid .grid__title1 {
-    grid-area: title1;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-align: center;
-    color: black;
+    .grid .grid__title1 {
+        grid-area: title1;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        text-align: center;
+        color: black;
 
-}
+    }
 
-.grid .grid__title2 {
-    grid-area: title2;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title2 {
+        grid-area: title2;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title3 {
-    grid-area: title3;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title3 {
+        grid-area: title3;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title4 {
-    grid-area: title4;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title4 {
+        grid-area: title4;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title5 {
-    grid-area: title5;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
-.grid .grid__title6 {
-    grid-area: title6;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title5 {
+        grid-area: title5;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title7 {
-    grid-area: title7;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
-.grid .grid__title8 {
-    grid-area: title8;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title6 {
+        grid-area: title6;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title9 {
-    grid-area: title9;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
-.grid .grid__title10 {
-    grid-area: title10;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
-.grid .grid__title11 {
-    grid-area: title11;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title7 {
+        grid-area: title7;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__title12 {
-    grid-area: title12;
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: black;
-}
+    .grid .grid__title8 {
+        grid-area: title8;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__img1 {
-    grid-area: img1;
-    width: 80px;
-    height: 80px;
-    border-radius: 1rem;
-}
+    .grid .grid__title9 {
+        grid-area: title9;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__img2 {
-    grid-area: img2;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__title10 {
+        grid-area: title10;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__img3 {
-    grid-area: img3;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__title11 {
+        grid-area: title11;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__img4 {
-    grid-area: img4;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__title12 {
+        grid-area: title12;
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        color: black;
+    }
 
-.grid .grid__img5 {
-    grid-area: img5;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img1 {
+        grid-area: img1;
+        width: 80px;
+        height: 80px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img6 {
-    grid-area: img6;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img2 {
+        grid-area: img2;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img7 {
-    grid-area: img7;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img3 {
+        grid-area: img3;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img8 {
-    grid-area: img8;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img4 {
+        grid-area: img4;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img9 {
-    grid-area: img9;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img5 {
+        grid-area: img5;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img10 {
-    grid-area: img10;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img6 {
+        grid-area: img6;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img11 {
-    grid-area: img11;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img7 {
+        grid-area: img7;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
-.grid .grid__img12 {
-    grid-area: img12;
-    width: 70px;
-    height: 70px;
-    border-radius: 1rem;
-}
+    .grid .grid__img8 {
+        grid-area: img8;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
+
+    .grid .grid__img9 {
+        grid-area: img9;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
+
+    .grid .grid__img10 {
+        grid-area: img10;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
+
+    .grid .grid__img11 {
+        grid-area: img11;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
+
+    .grid .grid__img12 {
+        grid-area: img12;
+        width: 70px;
+        height: 70px;
+        border-radius: 1rem;
+    }
 
 
     /* -------------FOOTER---------------- */
