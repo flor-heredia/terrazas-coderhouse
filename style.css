@@ -476,14 +476,14 @@ a.nav-link {
     a.nav-link.active {
         /* margin: -.5rem; */
         color: black;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'Ubuntu Condensed', sans-serif;
         margin: 0;
     }
 
     a.nav-link {
         color: black;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-family: 'Ubuntu Condensed', sans-serif;
         margin: 0;
     }
