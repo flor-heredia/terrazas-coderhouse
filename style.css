@@ -8,6 +8,8 @@
 }
 
 
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -33,6 +35,7 @@ header {
     padding: 1.5rem;
     margin: 1.5rem;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .titulo__header h1 {
@@ -89,6 +92,9 @@ a.nav-link:hover {
 
 .dondeestamos__footer {
     text-align: center;
+    border: black;
+    border-radius: 1rem;
+    border-style: groove;
 }
 
 .dondeestamos__footer .donde__estamos {
@@ -100,11 +106,13 @@ a.nav-link:hover {
 .dondeestamos__footer p {
     font-size: 1.6rem;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .dondeestamos__footer .donde__seguirnos {
     font-size: 2rem;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 
@@ -118,6 +126,10 @@ a.nav-link:hover {
 .contactanos__footer {
     display: inline;
     text-align: center;
+    color: black;
+    border: black;
+    border-radius: 1rem;
+    border-style: groove;
 }
 
 
@@ -139,6 +151,7 @@ a.nav-link:hover {
     font-family: 'Ubuntu Condensed', sans-serif;
     text-align: center;
     margin: 1rem;
+
 }
 
 /* ----------------------------------------------------------------- */
@@ -175,6 +188,7 @@ a.nav-link:hover {
     margin: 1rem;
     padding: 1.5rem;
     text-align: auto;
+    color: black;
 }
 
 
@@ -207,6 +221,7 @@ a.nav-link:hover {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
+    color: black;
 }
 
 .detalles__servicios p {
@@ -214,6 +229,7 @@ a.nav-link:hover {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
+    color: black;
 }
 
 
@@ -233,72 +249,84 @@ a.nav-link:hover {
     grid-area: title1;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title2 {
     grid-area: title2;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title3 {
     grid-area: title3;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title4 {
     grid-area: title4;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title5 {
     grid-area: title5;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title6 {
     grid-area: title6;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title7 {
     grid-area: title7;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title8 {
     grid-area: title8;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title9 {
     grid-area: title9;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title10 {
     grid-area: title10;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title11 {
     grid-area: title11;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__title12 {
     grid-area: title12;
     font-size: x-large;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
 }
 
 .grid .grid__img1 {
@@ -396,6 +424,7 @@ a.nav-link:hover {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
+    color: black;
 }
 
 div p {
@@ -403,6 +432,7 @@ div p {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
+    color: black;
 }
 
 .grid__container {
@@ -464,6 +494,7 @@ div p {
     border-style: groove;
     border-radius: 1rem;
     border-color: black;
+    color: black;
 }
 
 .grid__container .grid__titulo2 {
@@ -475,6 +506,7 @@ div p {
     border-style: groove;
     border-radius: 1rem;
     border-color: black;
+    color: black;
 }
 
 
@@ -488,6 +520,7 @@ div p {
     border-style: groove;
     border-radius: 1rem;
     border-color: black;
+    color: black;
 
 }
 
@@ -501,6 +534,7 @@ div p {
     border-style: groove;
     border-radius: 1rem;
     border-color: black;
+    color: black;
 }
 
 /**********************************************************************/
@@ -515,6 +549,7 @@ div p {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
+    color: black;
 
 }
 
