@@ -518,7 +518,7 @@ div p{
 
 }
 
-.grid {
+.grid__galeria {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: min-content min-content min-content min-content min-content ;
@@ -532,7 +532,7 @@ div p{
     justify-items: center;
 }
 
-.grid .grid__imag1 {
+.grid__galeria .grid__imag1 {
     grid-area: imag1;
     width: 250px;
     height: 250px;
@@ -547,7 +547,7 @@ div p{
     transform: scaleX(1.3);
 }
 
-.grid .grid__imag2 {
+.grid__galeria .grid__imag2 {
     grid-area: imag2;
     width: 250px;
     height: 250px;
@@ -562,7 +562,7 @@ div p{
     transform: scaleX(1.3);
 }
 
-.grid .grid__imag3 {
+.grid__galeria .grid__imag3 {
     grid-area: imag3;
     width: 250px;
     height: 250px;
@@ -577,7 +577,7 @@ div p{
     transform: scaleX(1.3);
 }
 
-.grid .grid__imag4 {
+.grid__galeria .grid__imag4 {
     grid-area: imag4;
     width: 250px;
     height: 250px;
@@ -592,7 +592,7 @@ div p{
     transform: rotateY(30deg);
 }
 
-.grid .grid__imag5 {
+.grid__galeria .grid__imag5 {
     grid-area: imag5;
     width: 250px;
     height: 250px;
@@ -607,7 +607,7 @@ div p{
     transform: rotateY(30deg);
 }
 
-.grid .grid__imag6 {
+.grid__galeria .grid__imag6 {
     grid-area: imag6;
     width: 250px;
     height: 250px;
@@ -622,7 +622,7 @@ div p{
     transform: rotateY(30deg);
 }
 
-.grid .grid__imag7 {
+.grid__galeria .grid__imag7 {
     grid-area: imag7;
     width: 250px;
     height: 250px;
@@ -637,7 +637,7 @@ div p{
     transform: scaleX(1.3);
 }
 
-.grid .grid__imag8 {
+.grid__galeria .grid__imag8 {
     grid-area: imag8;
     width: 250px;
     height: 250px;
@@ -652,7 +652,7 @@ div p{
     transform: scaleX(1.3);
 }
 
-.grid .grid__imag9 {
+.grid__galeria .grid__imag9 {
     grid-area: imag9;
     width: 250px;
     height: 250px;
@@ -668,7 +668,7 @@ div p{
 }
 
 
-.grid .grid__imag10 {
+.grid__galeria .grid__imag10 {
     grid-area: imag10;
     width: 250px;
     height: 250px;
@@ -683,7 +683,7 @@ div p{
     transform: rotateY(30deg);
 }
 
-.grid .grid__imag11 {
+.grid__galeria .grid__imag11 {
     grid-area: imag11;
     width: 250px;
     height: 250px;
@@ -698,7 +698,7 @@ div p{
     transform: rotateY(30deg);
 }
 
-.grid .grid__imag12 {
+.grid__galeria .grid__imag12 {
     grid-area: imag12;
     width: 250px;
     height: 250px;
