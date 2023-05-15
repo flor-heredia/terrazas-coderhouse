@@ -430,6 +430,117 @@ a.nav-link {
 /*                                                                    */
 /**********************************************************************/
 
+.main__alojamiento{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div p{
+    font-size: 2rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: min-content min-content min-content min-content min-content ;
+    grid-template-areas:
+    "imagen1 titulo1"
+    "titulo2 imagen2"
+    "imagen3 titulo3"
+    "titulo4 imagen4";
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid__container {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.grid__container .grid__imagen1 {
+    grid-area: imagen1;
+    width: 41.5rem;
+    height: 41.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.grid__container .grid__imagen2 {
+    grid-area: imagen2;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+
+.grid__container .grid__imagen3 {
+    grid-area: imagen3;
+    width: 36.5rem;
+    height: 36.5rem;
+    border-radius: 1rem;
+}
+
+.grid__container .grid__imagen4 {
+    grid-area: imagen4;
+    width: 40.5rem;
+    height: 40.5rem;
+    border-radius: 1rem;
+}
+
+
+.grid__container .grid__titulo1 {
+    grid-area: titulo1;
+    font-size: 1.4rem;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.grid__container .grid__titulo2  {
+    grid-area: titulo2;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu Condensed', sans-serif;  
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+
+
+.grid__container .grid__titulo3 {
+    grid-area: titulo3;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: black;
+
+}
+
+
+.grid__container .grid__titulo4 {
+    grid-area: titulo4;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: black;
+}
 
 
 
