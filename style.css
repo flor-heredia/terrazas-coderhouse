@@ -584,11 +584,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag4{
+.grid__imag4{
     transition: transform 2s;
 }
 
-.grid .grid__imag4:hover{
+.grid__imag4:hover{
     transform: rotateY(30deg);
 }
 
@@ -599,11 +599,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag5{
+.grid__imag5{
     transition: transform 2s;
 }
 
-.grid .grid__imag5:hover{
+.grid__imag5:hover{
     transform: rotateY(30deg);
 }
 
@@ -614,11 +614,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag6{
+.grid__imag6{
     transition: transform 2s;
 }
 
-.grid .grid__imag6:hover{
+.grid__imag6:hover{
     transform: rotateY(30deg);
 }
 
@@ -675,11 +675,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag10{
+.grid__imag10{
     transition: transform 2s;
 }
 
-.grid .grid__imag10:hover{
+.grid__imag10:hover{
     transform: rotateY(30deg);
 }
 
@@ -690,11 +690,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag11{
+.grid__imag11{
     transition: transform 2s;
 }
 
-.grid .grid__imag11:hover{
+.grid__imag11:hover{
     transform: rotateY(30deg);
 }
 
@@ -705,11 +705,11 @@ div p{
     border-radius: 1rem;
 }
 
-.grid .grid__imag12{
+.grid__imag12{
     transition: transform 2s;
 }
 
-.grid .grid__imag12:hover{
+.grid__imag12:hover{
     transform: rotateY(30deg);
 }
 
