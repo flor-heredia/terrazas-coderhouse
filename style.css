@@ -50,15 +50,28 @@ a.nav-link.active {
     color: black;
     font-size: 1.8rem;
     font-family: 'Ubuntu Condensed', sans-serif;
-
+    transition-property: color;
+    transition-duration: .3s;
 }
+
+a.nav-link.active:hover{
+    color: rgb(246, 87, 7);
+}
+
 
 a.nav-link {
     margin: 1.4rem;
     padding: 1rem;
     color: black;
     font-size: 1.8rem;
-    font-family: 'Ubuntu Condensed', sans-serif
+    font-family: 'Ubuntu Condensed', sans-serif;
+    transition-property: color;
+    transition-duration: .3s;
+    
+}
+
+a.nav-link:hover{
+    color: rgb(246, 87, 7);
 }
 
 /* header {
