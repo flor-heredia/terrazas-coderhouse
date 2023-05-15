@@ -445,8 +445,8 @@ a.nav-link {
     header {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
 
     .index__logo img{
@@ -461,6 +461,10 @@ a.nav-link {
 
     .titulo__header h2 {
         font-size: 0.6rem;
+    }
+
+    .nav__index .nav-item a{
+        margin: 0.5px;
     }
 
     a.nav-link.active {
