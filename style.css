@@ -742,6 +742,26 @@ div p {
     transform: rotateY(30deg);
 }
 
+/**********************************************************************/
+/*                                                                    */
+/*                            COMIENZA MAIN CONTACTO                  */
+/*                                                                    */
+/**********************************************************************/
+
+.main__contacto {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+}
+
+.contacto__fotter,
+.formulario__contacto,
+.como__llegar {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 
 /**********************************************************************/
 /*                                                                    */
