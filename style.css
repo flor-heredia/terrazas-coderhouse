@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(224, 173, 85);
 }
 
@@ -144,6 +144,7 @@ a.nav-link:hover {
     width: 10rem;
 }
 
+
 .copyright__footer p {
     font-size: 1.4rem;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -213,6 +214,7 @@ a.nav-link:hover {
     grid-row-gap: 1rem;
     justify-items: center;
 }
+
 
 .detalles__servicios .main__servicios {
     font-size: 2.5rem;
@@ -333,6 +335,8 @@ a.nav-link:hover {
     height: 100px;
     border-radius: 1rem;
 }
+
+
 
 .grid .grid__img2 {
     grid-area: img2;
@@ -1207,132 +1211,132 @@ div form fieldset legend {
         justify-items: center;
     }
 
-/**********************************************************************/
-/*                                                                    */
-/*                            main alojamiento                        */
-/*                                                                    */
-/**********************************************************************/
+    /**********************************************************************/
+    /*                                                                    */
+    /*                            main alojamiento                        */
+    /*                                                                    */
+    /**********************************************************************/
 
-.main__alojamiento {
-    font-size: 1.8rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    margin: 1rem;
-    padding: 1rem;
-    color: black;
-}
+    .main__alojamiento {
+        font-size: 1.8rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin: 1rem;
+        padding: 1rem;
+        color: black;
+    }
 
-div p {
-    font-size: 1.1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    margin: 1rem;
-    padding: 1rem;
-    color: black;
-}
+    div p {
+        font-size: 1.1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin: 1rem;
+        padding: 1rem;
+        color: black;
+    }
 
-.grid__container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: min-content min-content min-content min-content min-content;
-    grid-template-areas:
-        "imagen1"
-        "titulo1"
-        "imagen2"
-        "titulo2"
-        "imagen3"
-        "titulo3"
-        "imagen4"
-        "titulo4";
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
-    justify-items: center;
-    align-items: center;
-}
+    .grid__container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        grid-template-areas:
+            "imagen1"
+            "titulo1"
+            "imagen2"
+            "titulo2"
+            "imagen3"
+            "titulo3"
+            "imagen4"
+            "titulo4";
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        justify-items: center;
+        align-items: center;
+    }
 
-.grid__container {
-    margin: 1rem;
-    padding: 1rem;
-}
+    .grid__container {
+        margin: 1rem;
+        padding: 1rem;
+    }
 
-.grid__container .grid__imagen1 {
-    grid-area: imagen1;
-    width: 22rem;
-    height: 22rem;
-    margin: 1rem;
-    border-radius: 1rem;
-}
+    .grid__container .grid__imagen1 {
+        grid-area: imagen1;
+        width: 22rem;
+        height: 22rem;
+        margin: 1rem;
+        border-radius: 1rem;
+    }
 
-.grid__container .grid__imagen2 {
-    grid-area: imagen2;
-    width: 22rem;
-    height: 22rem;
-    border-radius: 1rem;
-}
+    .grid__container .grid__imagen2 {
+        grid-area: imagen2;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 1rem;
+    }
 
-.grid__container .grid__imagen3 {
-    grid-area: imagen3;
-    width: 22rem;
-    height: 22rem;
-    border-radius: 1rem;
-}
+    .grid__container .grid__imagen3 {
+        grid-area: imagen3;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 1rem;
+    }
 
-.grid__container .grid__imagen4 {
-    grid-area: imagen4;
-    width: 22rem;
-    height: 22rem;
-    border-radius: 1rem;
-}
-
-
-.grid__container .grid__titulo1 {
-    grid-area: titulo1;
-    font-size: 1rem;
-    margin: 1rem;
-    padding: 1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    border-style: groove;
-    border-radius: 1rem;
-    border-color: black;
-    color: black;
-}
-
-.grid__container .grid__titulo2 {
-    grid-area: titulo2;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    border-style: groove;
-    border-radius: 1rem;
-    border-color: black;
-    color: black;
-}
+    .grid__container .grid__imagen4 {
+        grid-area: imagen4;
+        width: 22rem;
+        height: 22rem;
+        border-radius: 1rem;
+    }
 
 
+    .grid__container .grid__titulo1 {
+        grid-area: titulo1;
+        font-size: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        border-style: groove;
+        border-radius: 1rem;
+        border-color: black;
+        color: black;
+    }
 
-.grid__container .grid__titulo3 {
-    grid-area: titulo3;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    border-style: groove;
-    border-radius: 1rem;
-    border-color: black;
-    color: black;
+    .grid__container .grid__titulo2 {
+        grid-area: titulo2;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        border-style: groove;
+        border-radius: 1rem;
+        border-color: black;
+        color: black;
+    }
 
-}
 
 
-.grid__container .grid__titulo4 {
-    grid-area: titulo4;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    border-style: groove;
-    border-radius: 1rem;
-    border-color: black;
-    color: black;
-}
+    .grid__container .grid__titulo3 {
+        grid-area: titulo3;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        border-style: groove;
+        border-radius: 1rem;
+        border-color: black;
+        color: black;
+
+    }
+
+
+    .grid__container .grid__titulo4 {
+        grid-area: titulo4;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        border-style: groove;
+        border-radius: 1rem;
+        border-color: black;
+        color: black;
+    }
 
 }
