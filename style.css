@@ -762,6 +762,66 @@ div p {
     margin-right: 2rem;
 }
 
+div form fieldset legend {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: x-large;
+    border-style: groove;
+    border-radius: 1rem;
+    text-shadow: 2px 2px 5px rgba(252, 102, 33, 1)
+}
+
+.main__contacto section .contacto__fotter h4 {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2rem;
+    text-align: initial;
+    text-shadow: 2px 2px 5px rgba(252, 102, 33, 1)
+}
+
+.main__contacto section .contacto__fotter div {
+    display: flex;
+    height: 1rem;
+    margin: 1rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: xx-large;
+    font-size: 1rem;
+}
+
+.main__contacto section .contacto__fotter div img {
+    margin-right: 0.5rem;
+}
+
+.main__contacto section .formulario__contacto fieldset {
+    width: 400px;
+    padding: 18px;
+    border-radius: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: x-large;
+    margin: auto;
+}
+
+.main__contacto section .como__llegar {
+    margin: 2 rem;
+    padding: 2rem;
+    border-style: groove;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.main__contacto section .como__llegar iframe {
+    margin: 1 rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.main__contacto section {
+    display: flex;
+}
+
 
 /**********************************************************************/
 /*                                                                    */
