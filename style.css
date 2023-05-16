@@ -759,14 +759,11 @@ div p {
     header {
         display: flex;
         flex-direction: row;
-        /* justify-content: center; */
-        /* align-items: center; */
     }
 
     .index__logo img {
         height: 6.5rem;
         margin: 0.5rem;
-        /* padding: 0.5rem; */
     }
 
     .titulo__header h1 {
@@ -1141,7 +1138,7 @@ div p {
 }
 
 div p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 1rem;
     padding: 1rem;
