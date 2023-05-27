@@ -16,14 +16,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   font-family: "Ubuntu Condensed", sans-serif;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo__header {
@@ -43,14 +43,14 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 1.5rem;
   margin: 1.5rem;
   font-family: "Ubuntu Condensed", sans-serif;
@@ -75,7 +75,7 @@ a.nav-link.active {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 a.nav-link.active:hover {
@@ -91,7 +91,7 @@ a.nav-link {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 a.nav-link:hover {
@@ -107,13 +107,13 @@ a.nav-link:hover {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .dondeestamos__footer {
@@ -182,7 +182,7 @@ a.nav-link:hover {
 .control__imagen img {
   height: 550px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .bienvenidos__main h3 {
@@ -445,8 +445,8 @@ div p {
   grid-row-gap: 2rem;
   justify-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .grid__container {
@@ -548,7 +548,7 @@ div p {
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.33%;
   grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
-  grid-template-rows: min-content min-content min-content min-content min-content;
+  grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
   grid-template-areas: "imag1 imag2 imag3" "imag4 imag5 imag6" "imag7 imag8 imag9" "imag10 imag11 imag12";
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
@@ -571,7 +571,7 @@ div p {
 
 .grid__imag1:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag2 {
@@ -590,7 +590,7 @@ div p {
 
 .grid__imag2:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag3 {
@@ -609,7 +609,7 @@ div p {
 
 .grid__imag3:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag4 {
@@ -628,7 +628,7 @@ div p {
 
 .grid__imag4:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 .grid__galeria .grid__imag5 {
@@ -647,7 +647,7 @@ div p {
 
 .grid__imag5:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 .grid__galeria .grid__imag6 {
@@ -666,7 +666,7 @@ div p {
 
 .grid__imag6:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 .grid__galeria .grid__imag7 {
@@ -685,7 +685,7 @@ div p {
 
 .grid__imag7:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag8 {
@@ -704,7 +704,7 @@ div p {
 
 .grid__imag8:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag9 {
@@ -723,7 +723,7 @@ div p {
 
 .grid__imag9:hover {
   -webkit-transform: scaleX(1.3);
-          transform: scaleX(1.3);
+  transform: scaleX(1.3);
 }
 
 .grid__galeria .grid__imag10 {
@@ -742,7 +742,7 @@ div p {
 
 .grid__imag10:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 .grid__galeria .grid__imag11 {
@@ -761,7 +761,7 @@ div p {
 
 .grid__imag11:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 .grid__galeria .grid__imag12 {
@@ -780,7 +780,7 @@ div p {
 
 .grid__imag12:hover {
   -webkit-transform: rotateY(30deg);
-          transform: rotateY(30deg);
+  transform: rotateY(30deg);
 }
 
 /**********************************************************************/
@@ -874,6 +874,7 @@ div form fieldset legend {
 /*                                                                    */
 /**********************************************************************/
 @media screen and (max-width: 426px) {
+
   /* body {
       background-color: brown;
   } */
@@ -884,19 +885,23 @@ div form fieldset legend {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
+
   .index__logo img {
     height: 6.5rem;
     margin: 0.5rem;
   }
+
   .titulo__header h1 {
     font-size: 1.4rem;
   }
+
   .titulo__header h2 {
     font-size: 0.6rem;
   }
+
   /* 
   .nav__index .nav-item a{
       margin: 0.5px;
@@ -908,32 +913,38 @@ div form fieldset legend {
     font-family: "Ubuntu Condensed", sans-serif;
     margin: 0;
   }
+
   a.nav-link {
     color: black;
     font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     margin: 0;
   }
+
   /* ------------MAIN------------------- */
   .control__imagen {
     height: 275px;
   }
+
   .control__imagen img {
     height: 275px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
+
   .bienvenidos__main h3 {
     font-size: 1.8rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .bienvenidos__main p {
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     text-align: auto;
     color: black;
   }
+
   /**********************************************************************/
   /*                                                                    */
   /*                            main servicios                        */
@@ -946,6 +957,7 @@ div form fieldset legend {
     padding: 1rem;
     color: black;
   }
+
   .detalles__servicios p {
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
@@ -953,12 +965,14 @@ div form fieldset legend {
     padding: 1rem;
     color: black;
   }
+
   .grid .grid__detalle {
     grid-area: detalle;
     font-size: 36px;
     font-family: "Ubuntu Condensed", sans-serif;
     text-align: center;
   }
+
   .grid .grid__title1 {
     grid-area: title1;
     font-size: 1.1rem;
@@ -966,144 +980,168 @@ div form fieldset legend {
     text-align: center;
     color: black;
   }
+
   .grid .grid__title2 {
     grid-area: title2;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title3 {
     grid-area: title3;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title4 {
     grid-area: title4;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title5 {
     grid-area: title5;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title6 {
     grid-area: title6;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title7 {
     grid-area: title7;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title8 {
     grid-area: title8;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title9 {
     grid-area: title9;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title10 {
     grid-area: title10;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title11 {
     grid-area: title11;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__title12 {
     grid-area: title12;
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .grid .grid__img1 {
     grid-area: img1;
     width: 80px;
     height: 80px;
     border-radius: 1rem;
   }
+
   .grid .grid__img2 {
     grid-area: img2;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img3 {
     grid-area: img3;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img4 {
     grid-area: img4;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img5 {
     grid-area: img5;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img6 {
     grid-area: img6;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img7 {
     grid-area: img7;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img8 {
     grid-area: img8;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img9 {
     grid-area: img9;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img10 {
     grid-area: img10;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img11 {
     grid-area: img11;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   .grid .grid__img12 {
     grid-area: img12;
     width: 70px;
     height: 70px;
     border-radius: 1rem;
   }
+
   /* -------------FOOTER---------------- */
   .contenedor__footer {
     display: -webkit-box;
@@ -1111,46 +1149,55 @@ div form fieldset legend {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
+
   .dondeestamos__footer .donde__estamos {
     font-size: 1.8rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .dondeestamos__footer p {
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
+
   .dondeestamos__footer .donde__seguirnos {
     font-size: 1.8rem;
     font-family: "Ubuntu Condensed", sans-serif;
     margin: 1rem;
     color: black;
   }
+
   .dondeestamos__footer img {
     width: 1.8rem;
     margin: 1rem;
   }
+
   .contactanos__footer {
     display: inline;
     text-align: center;
   }
+
   .contactanos__footer .contactanos__atraves {
     font-size: 1.8rem;
     font-family: "Ubuntu Condensed", sans-serif;
     margin: 1rem;
     color: black;
   }
+
   .contactanos__footer img {
     width: 2.5rem;
   }
+
   .logo__footer img {
     width: 9rem;
     margin: 1rem;
   }
+
   .copyright__footer p {
     font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
@@ -1158,6 +1205,7 @@ div form fieldset legend {
     text-align: center;
     color: black;
   }
+
   /* -------------main galeria---------------- */
   .galeria__cabanas {
     font-size: 1.8rem;
@@ -1167,6 +1215,7 @@ div form fieldset legend {
     color: black;
     text-align: center;
   }
+
   .grid__galeria {
     display: grid;
     grid-template-columns: 100%;
@@ -1177,6 +1226,7 @@ div form fieldset legend {
     grid-row-gap: 1rem;
     justify-items: center;
   }
+
   /**********************************************************************/
   /*                                                                    */
   /*                            main alojamiento                        */
@@ -1189,6 +1239,7 @@ div form fieldset legend {
     padding: 1rem;
     color: black;
   }
+
   div p {
     font-size: 1.1rem;
     font-family: "Ubuntu Condensed", sans-serif;
@@ -1196,6 +1247,7 @@ div form fieldset legend {
     padding: 1rem;
     color: black;
   }
+
   .grid__container {
     display: grid;
     grid-template-columns: 100%;
@@ -1206,13 +1258,15 @@ div form fieldset legend {
     grid-row-gap: 2rem;
     justify-items: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .grid__container {
     margin: 1rem;
     padding: 1rem;
   }
+
   .grid__container .grid__imagen1 {
     grid-area: imagen1;
     width: 22rem;
@@ -1220,24 +1274,28 @@ div form fieldset legend {
     margin: 1rem;
     border-radius: 1rem;
   }
+
   .grid__container .grid__imagen2 {
     grid-area: imagen2;
     width: 22rem;
     height: 22rem;
     border-radius: 1rem;
   }
+
   .grid__container .grid__imagen3 {
     grid-area: imagen3;
     width: 22rem;
     height: 22rem;
     border-radius: 1rem;
   }
+
   .grid__container .grid__imagen4 {
     grid-area: imagen4;
     width: 22rem;
     height: 22rem;
     border-radius: 1rem;
   }
+
   .grid__container .grid__titulo1 {
     grid-area: titulo1;
     font-size: 1rem;
@@ -1249,6 +1307,7 @@ div form fieldset legend {
     border-color: black;
     color: black;
   }
+
   .grid__container .grid__titulo2 {
     grid-area: titulo2;
     margin: 1rem;
@@ -1260,6 +1319,7 @@ div form fieldset legend {
     border-color: black;
     color: black;
   }
+
   .grid__container .grid__titulo3 {
     grid-area: titulo3;
     margin: 1rem;
@@ -1271,6 +1331,7 @@ div form fieldset legend {
     border-color: black;
     color: black;
   }
+
   .grid__container .grid__titulo4 {
     grid-area: titulo4;
     margin: 1rem;
