@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +28,7 @@
     <!------------------- csssss---------------- -->
     <!-- ------------------------------------------>
 
-
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <!-- ------------------------------------------>
     <!------------------- Titulo---------------- -->
@@ -36,141 +36,158 @@
     <title>Terrazas Alquiler Temporario</title>
 
 </head>
+
 <body>
 
     <header>
-        <div class="logo__header">
-            <div class="index__logo">
-                <a href="../index.html">
-                    <img class="imagen__header" src="../imagenes/Logo/logo_terrazas.png" alt="">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand active" aria-current="page" href="../index.html">
+                    <img src="../imagenes/Logo/logo_terrazas.png" alt="logo de la empresa">
+                    <h1 class="d-inline-block">TERRAZAS<br>CABAÑAS & DPTOS</h1>
                 </a>
-            </div>
-            <div class="titulo__header">
-                <h1>Terrazas</h1>
-                <h2>Cabañas & Dptos</h2>
-            </div>
-        </div>
-        <div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid ">
-                    <a class="navbar-brand" href="#" _msttexthash="381446" _msthash="276"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation" _msthidden="A" _mstaria-label="320099" _msthash="277">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav nav__index">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="../index.html" _msttexthash="59059"
-                                    _msthash="278">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./alojamiento.html" _msttexthash="136006"
-                                    _msthash="279">Alojamiento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./servicios.html" _msttexthash="136006"
-                                    _msthash="279">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./galeria.html" _msttexthash="95589"
-                                    _msthash="280">Galeria</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html" _msttexthash="95589"
-                                    _msthash="280">Contacto</a>
-                            </li>
-                        </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="../index.html">INICIO</a>
+                        <a class="nav-link" href="../pages/alojamiento.html">ALOJAMIENTO</a>
+                        <a class="nav-link" href="../pages/servicios.html">SERVICIOS</a>
+                        <a class="nav-link" href="../pages/galeria.html">GALERIA</a>
+                        <a class="nav-link" href="../pages/contacto.html ">CONTACTO</a>
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    
-<main>
+
+
     <main class="main__contacto">
-        <section>
-            <section class="fotter__completo">
-                <div class="contacto__fotter">
-                    <h4>Contactanos atraves de:</h4>
-                    <div>
-                        <img class="contacto__whatsapp" src="../imagenes/iconos/whatsapp.png" alt="">
-                        <p>0351-153850107</p>
-                    </div>
-                    <div>
-                        <img class="contacto__mail" src="../imagenes/iconos/mail-inbox-app.png" alt="logo de email">
-                        <p>infoalquilertermporario@gmail.com</p>
-                    </div>
+        <div class="formulario__contacto">
+            <h5>FORMULARIO DE CONTACTO</h5>
+            <form class="form__contac">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="fecha_ingreso">Fecha de Ingreso:</label>
+                <input type="date" id="fecha_ingreso" name="fecha_ingreso" required>
+
+                <label for="fecha_egreso">Fecha de Egreso:</label>
+                <input type="date" id="fecha_egreso" name="fecha_egreso" required>
+
+                <div class="cantidad-personas-container">
+                    <label for="cantidad_personas">Cantidad de personas:</label>
+                    <select id="cantidad_personas" name="cantidad_personas" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                    </select>
                 </div>
-                <div class="formulario__contacto">
-                    <form action="" method="post" enctype="">
-                        <fieldset>
-                            <legend>Solicitar Informacion</legend>
-                            <label for="nombre">Nombre y Apellido</label>
-                            <input type="text" value="">
-                            <br>
-                            <label for="hasta">Desde</label>
-                            <input type="date" name="cual es el dia que ingresa" id="">
-                            <label for="">Hasta</label>
-                            <input type="date" name="cual es el dia que sale" id="">
-                            <label for="nombre">Cantidad de Personas</label>
-                            <select name="" id="">
-                                <option value="1">1</option>
-                                <option value="1">2</option>
-                                <option value="1">3</option>
-                                <option value="1">4</option>
-                                <option value="1">5</option>
-                                <option value="1">6</option>
-                                <option value="1">7</option>
-                                <option value="1">8</option>
-                            </select>
-                            <br>
-                            <label for="email">Ingrese su Email</label>
-                            <input type="email" name="" id="">
-                            <br>
-                            <label for="">Comentario</label>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <button>Enviar</button>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="como__llegar">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3402.9375881530605!2d-64.57113968485058!3d-31.470902981385986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI4JzE1LjMiUyA2NMKwMzQnMDguMiJX!5e0!3m2!1ses!2sfr!4v1681593641467!5m2!1ses!2sfr"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-        </section>
-    </main>
-</main>
-    
-    <footer>
-        <div class="contenedor__footer">
-            <div class="dondeestamos__footer">
-                <p class="donde__estamos">Donde Estamos</p>
-                <!-- <p>Terrazas Cabañas y Dptos</p> -->
-                <p>Sierras de Cordoba - Tala Huasi</p>
-                <p>Piedras Negras</p>
-                <p class="donde__seguirnos">Seguinos en</p>
-                <a href="https://instagram.com/terrazas.alquiler?igshid=ZjE2NGZiNDQ="><img class="icono__instagram"
-                        src="../imagenes/iconos/instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/alquilertalahuasi?mibextid=LQQJ4d"><img class="icono__facebook"
-                        src="../imagenes/iconos/facebook.png" alt=""></a>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button class="button__enviar" type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="descripcion__contacto1">
+            <h5>DATOS DE CONTACTO</h5>
+            <div class="descripcion__contacto3">
+                <img src="../imagenes/iconos/telefono.png" alt="Telefono">
+                <p>(0351) 701-1721</p>
             </div>
-            <div class="contactanos__footer">
-                <p class="contactanos__atraves">Contactanos atraves de</p>
-                <a href="https://wa.me/3513850107/?text=tu%20texto%20personalizado"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt=""></a>
-                <a href="mailto:infoalquilerestemporario@gmail.com"><img src="https://cdn.icon-icons.com/icons2/171/PNG/512/email_green_23345.png" alt=""></a>
-                
+            <div class="descripcion__contacto3">
+                <img src="../imagenes/iconos/whatsapp.png" alt="WhatsApp">
+                <p>(0351) 530-9900 </p>
             </div>
-            <div class="logo__footer">
-                <a href="../index.html"><img class="fotter__index" src="../imagenes/Logo/logo_terrazas.png" alt=""></a>
+            <div class="descripcion__contacto3">
+                <img src="../imagenes/iconos/mail-inbox-app.png" alt="Email">
+                <p>infoalquilerestemporarios@gmail.com</p>
             </div>
         </div>
-        <div class="copyright__footer">
-            <p>2023© Terrazas Cabañas & Dptos. Todos los derechos reservados</p>
+    </main>
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------footer---------------------------------------------------->
+    <!-- -------------------------------------------------------------------------------------------------------------->
+
+
+    <footer>
+        <!-- ------------------------------------------------------------------------------------------------------------------------->
+        <!---------------------------El footer se realiza atraves de una GRILLA "otro tema dado en el curso"--------------------------->
+        <!-- ------------------------------------------------------------------------------------------------------------------------->
+        <div class="grid__footer">
+            <div class="ubicacion__cabanas">
+                <img src="../imagenes/iconos/ubicacion modificada.png" alt="Imagen Ubicación" title="Ubicacion Title"
+                    loading="lazy">
+                <p class="titulo__predescripcion titulo__descripcion">UBICACION</p>
+            </div>
+            <div class="ubicacion__mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3402.9375881530605!2d-64.57113968485058!3d-31.470902981385986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI4JzE1LjMiUyA2NMKwMzQnMDguMiJX!5e0!3m2!1ses!2sfr!4v1681593641467!5m2!1ses!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="donde__nosencontramos">
+                <p>Sierras de Cordoba - Tala Huasi.<br>Piedras Negras.</p>
+            </div>
+            <div class="donde__contactarnos">
+                <img src="../imagenes/iconos/comunicar modificado.png" alt="Imagen Contacto" title="Contacto Title"
+                    loading="lazy">
+                <p class="titulo__predescripcion titulo__descripcion">CONTACTO</p>
+            </div>
+            <div class="descripcion__contacto">
+                <div class="descripcion__contacto2">
+                    <a href="tel:3517011721"><img src="../imagenes/iconos/telefono.modificado..png"
+                            alt=" Imagen Telefono" title="Telefono Title" loading="lazy"></a>
+                    <p>(0351) 701-1721</p>
+                </div>
+                <div class="descripcion__contacto2">
+                    <a href="whatsapp://send?phone=+3515309900&text=Hola%20¿cómo%20estás?"><img
+                            src="../imagenes/iconos/whatapp modificado.png" alt="Imgaen WhatsApp" title="WhatsApp Title"
+                            loading="lazy"></a>
+                    <p>(0351) 530-9900 </p>
+                </div>
+                <div class="descripcion__contacto2">
+                    <a href="mailto:infoalquilerestemporario@gmail.com"><img
+                            src="../imagenes/iconos/mail modificado.png" alt="Imagen Email" title="Email Title"
+                            loading="lazy"></a>
+                    <p>infoalquilerestemporarios@gmail.com</p>
+                </div>
+            </div>
+            <div class="redes__sociales">
+                <p>Seguinos en nuestras redes:</p>
+                <a href="https://www.facebook.com/alquilertalahuasi?mibextid=LQQJ4d"><img
+                        src="../imagenes/iconos/facebook.png" alt="Imagen Facebook" title="Facebook Title"
+                        loading="lazy"></a>
+                <a href="https://instagram.com/terrazas.alquiler?igshid=ZjE2NGZiNDQ="><img
+                        src="../imagenes/iconos/instagram.png" alt="Imagen Instagram" title="Instagram Title"
+                        loading="lazy"></a>
+            </div>
+            <section class="copy__right">
+                <p>2023© Terrazas Cabañas & Dptos. Todos los derechos reservados.</p>
+            </section>
         </div>
     </footer>
 
@@ -178,4 +195,5 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
