@@ -2713,7 +2713,7 @@ textarea {
     .grid__galeria {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 22 (min-content);
+        grid-template-rows: 23 (min-content);
         grid-template-areas:
             "imagen1 imagen2"
             "text1 text2"
