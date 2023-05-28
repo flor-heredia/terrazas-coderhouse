@@ -2734,7 +2734,9 @@ textarea {
             "imagen17 imagen18"
             "text17 text18"
             "imagen19 imagen20"
-            "text19 text20";
+            "text19 text20"
+            "imagen21"
+            "text21";
         grid-column-gap: 1rem;
         grid-row-gap: 1rem;
     }
@@ -2974,8 +2976,6 @@ textarea {
         color: black;
     }
 
-
-
     .grid__galeria .grid__imagen16 {
         grid-area: imagen16;
         width: 170px;
@@ -3055,7 +3055,6 @@ textarea {
         color: black;
     }
 
-
     .grid__galeria .grid__imagen21 {
         grid-area: imagen21;
         width: 170px;
@@ -3070,7 +3069,6 @@ textarea {
         font-family: "Ubuntu Condensed", sans-serif;
         color: black;
     }
-
 
     /* ------------------------------------------------------------------------------------------------- */
     /* -----------------------------------------CONTACTO MOBILE---------------------------------------- */
