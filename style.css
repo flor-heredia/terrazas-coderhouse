@@ -2327,8 +2327,8 @@ textarea {
             "texto3"
             "img4"
             "texto4";
-        gap: 1rem;
-        row-gap: 1rem;
+        /* gap: 1rem;
+        row-gap: 1rem; */
     }
 
     .imagenUno {
@@ -2448,7 +2448,6 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-
 
     .main__descripcionGaleria4 h3 {
         color: #ff8800;
