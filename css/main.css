@@ -295,8 +295,8 @@ main {
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: bolder;
   text-shadow: 6px 6px 9px rgb(252, 102, 33);
-  margin: 1rem;
-  padding: 1rem;
+  margin: 1.5rem;
+  padding: 1.5rem;
   color: black;
 }
 
