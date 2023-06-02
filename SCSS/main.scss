@@ -1977,498 +1977,498 @@ textarea {
 /* ----------------------------------------------------------------------------------------------------------- */
 
 
-@media screen and (max-width: 480px) {
+// @media screen and (max-width: 480px) {
 
     /* ----------------------------------------------------------------- */
     /* --------------------------HEADER MOBILE-------------------------------- */
     /* ----------------------------------------------------------------- */
 
-    header {
-        display: flex;
-        justify-content: center;
-    }
-
-    header * {
-        display: flex;
-        align-self: center;
-        text-decoration: none;
-        list-style-type: none;
-        color: white;
-    }
-
-    .navbar-brand img {
-        width: 5rem;
-        height: 5rem;
-        transition: .3s linear;
-    }
-
-    .navbar-brand img:hover {
-        transform: scale(1.1);
-        filter: opacity(50%);
-    }
-
-    .navbar-brand h1 {
-        margin: 1.5rem;
-        font-size: 1.2rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-align: center;
-    }
-
-    header nav div {
-        background-color: black;
-    }
-
-    .navbar {
-        --bs-navbar-padding-y: 0;
-        width: 100%;
-    }
-
-
-    .navbar-nav {
-        margin: 0rem;
-    }
-
-
-    .nav-link {
-        font-size: 1rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: white;
-        margin: 1rem;
-    }
-
-    /* -------------------------------------------------------------------------------------------*/
-    /* -------------------------MAIN INDEX MOBILE----------------------------------------------- */
-    /* ---------------------------------------------------------------------------------------- */
-
-    main {
-        margin-top: 21%;
-    }
-
-    .control__imagen {
-        height: 275px;
-    }
-
-    .control__imagen img {
-        height: 275px;
-        object-fit: cover;
-    }
-
-    .bienvenidos__mainindex h2 {
-        font-size: 1.3rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: black;
-    }
-
-    .bienvenidos__mainindex p {
-        font-size: 1.2rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-align: auto;
-        color: black;
-    }
-
-    /* ------------------------------------------------------------------------------------------- */
-    /* --------------------MAIN ALOJAMIENTO MOBILE----------------------------------------------- */
-    /* ----------------------------------------------------------------------------------------- */
-
-    .main__galeria {
-        margin-top: 28%;
-    }
-
-    .titulo__alojamiento h2 {
-        font-size: 1.3rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        font-weight: bolder;
-        text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-        margin: 1rem;
-        padding: 1rem;
-        color: black;
-    }
-
-    .descripcion__alojamiento p {
-        font-size: 1.2rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        margin: 1rem;
-        padding: 1rem;
-        text-align: auto;
-        color: black;
-    }
-
-    .gridGaleria__container {
-        display: grid;
-        margin: 1rem;
-        padding: 1rem;
-        grid-template-columns: 100%;
-        grid-template-areas:
-            "img"
-            "texto"
-            "img2"
-            "texto2"
-            "img3"
-            "texto3"
-            "img4"
-            "texto4";
-        /* gap: 1rem;
-        row-gap: 1rem; */
-    }
-
-    .imagenUno {
-        grid-area: img;
-        width: 22rem;
-        height: 22rem;
-    }
-
-    .imagenDos {
-        grid-area: img2;
-        width: 22rem;
-        height: 22rem;
-    }
-
-    .imagenTres {
-        grid-area: img3;
-        width: 22rem;
-        height: 22rem;
-    }
-
-    .imagenCuatro {
-        grid-area: img4;
-        width: 22rem;
-        height: 22rem;
-    }
-
-    .carousel__galeria img {
-        width: 22rem;
-        height: 22rem;
-        border-radius: 10%;
-    }
-
-    .carousel__galeria2 img {
-        width: 22rem;
-        height: 22rem;
-        border-radius: 10%;
-    }
-
-
-    .main__descripcionGaleria {
-        opacity: 1.5;
-        border-radius: 50px 50px;
-        border-style: double;
-        padding: 2.5px 5px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main__descripcionGaleria h3 {
-        font-size: 1rem;
-        text-align: center;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: black;
-        text-shadow: 4px 4px 7px rgb(9, 9, 9)
-    }
-
-    .main__descripcionGaleria p {
-        font-size: 0.9rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: black;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-
-    .main__descripcionGaleria2 {
-        opacity: 1.5;
-        border-radius: 50px 50px;
-        padding: 2.5px 5px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main__descripcionGaleria2 h3 {
-        color: black;
-        font-size: 1rem;
-        text-align: center;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-shadow: 4px 4px 7px rgb(9, 9, 9)
-    }
-
-    .main__descripcionGaleria2 p {
-        font-size: 0.9rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    .main__descripcionGaleria3 {
-        /* opacity: 1.5; */
-        border-radius: 50px 50px;
-        padding: 2.5px 5px;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .main__descripcionGaleria3 h3 {
-        color: #ff8800;
-        font-size: 1.3rem;
-        text-align: center;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-shadow: 4px 4px 7px rgb(9, 9, 9)
-    }
-
-    .main__descripcionGaleria3 p {
-        font-size: 1rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    .main__descripcionGaleria4 {
-        /* opacity: 1.5; */
-        border-radius: 50px 50px;
-        padding: 2.5px 5px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main__descripcionGaleria4 h3 {
-        color: #ff8800;
-        font-size: 1.3rem;
-        font-weight: bolder;
-        text-align: center;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-shadow: 4px 4px 7px rgb(9, 9, 9)
-    }
-
-    .main__descripcionGaleria4 p {
-        font-size: 1rem;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    /******************************************************************************************************/
-    /*                                                                                                   */
-    /*                            main servicios                                                        */
-    /*                                                                                                 */
-    /**************************************************************************************************/
-
-
-    .grid {
-        display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
-        grid-template-areas:
-            "img1 img2 img3"
-            "title1 title2 title3"
-            "img4 img5 img6"
-            "title4 title5 title6"
-            "img7 img8 img9"
-            "title7 title8 title9"
-            "img10 img11 img12"
-            "title10 title11 title12";
-        grid-column-gap: 1rem;
-        grid-row-gap: 1rem;
-        justify-items: center;
-    }
-
-    .detalles__servicios .main__servicios {
-        font-size: 1.3rem;
-        font-family: "Ubuntu Condensed", sans-serif;
-        text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-        margin: 1rem;
-        padding: 1rem;
-        color: black;
-    }
-
-    .detalles__servicios p {
-        font-size: 1.2rem;
-        font-family: "Ubuntu Condensed", sans-serif;
-        margin: 1rem;
-        padding: 1rem;
-        color: black;
-    }
-
-    .grid {
-        margin: 1rem;
-        padding: 1rem;
-    }
-
-    .grid .grid__detalle {
-        grid-area: detalle;
-        font-size: 36px;
-        font-family: "Ubuntu Condensed", sans-serif;
-        text-align: center;
-    }
-
-    .grid .grid__title1 {
-        grid-area: title1;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        text-align: center;
-        color: black;
-    }
-
-    .grid .grid__title2 {
-        grid-area: title2;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title3 {
-        grid-area: title3;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title4 {
-        grid-area: title4;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title5 {
-        grid-area: title5;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title6 {
-        grid-area: title6;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title7 {
-        grid-area: title7;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title8 {
-        grid-area: title8;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title9 {
-        grid-area: title9;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title10 {
-        grid-area: title10;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title11 {
-        grid-area: title11;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__title12 {
-        grid-area: title12;
-        font-size: large;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
-
-    .grid .grid__img1 {
-        grid-area: img1;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img2 {
-        grid-area: img2;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img3 {
-        grid-area: img3;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img4 {
-        grid-area: img4;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img5 {
-        grid-area: img5;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img6 {
-        grid-area: img6;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img7 {
-        grid-area: img7;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img8 {
-        grid-area: img8;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img9 {
-        grid-area: img9;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img10 {
-        grid-area: img10;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img11 {
-        grid-area: img11;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
-
-    .grid .grid__img12 {
-        grid-area: img12;
-        width: 70px;
-        height: 70px;
-        border-radius: 1rem;
-    }
+    // header {
+    //     display: flex;
+    //     justify-content: center;
+    // }
+
+    // header * {
+    //     display: flex;
+    //     align-self: center;
+    //     text-decoration: none;
+    //     list-style-type: none;
+    //     color: white;
+    // }
+
+    // .navbar-brand img {
+    //     width: 5rem;
+    //     height: 5rem;
+    //     transition: .3s linear;
+    // }
+
+    // .navbar-brand img:hover {
+    //     transform: scale(1.1);
+    //     filter: opacity(50%);
+    // }
+
+    // .navbar-brand h1 {
+    //     margin: 1.5rem;
+    //     font-size: 1.2rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-align: center;
+    // }
+
+    // header nav div {
+    //     background-color: black;
+    // }
+
+    // .navbar {
+    //     --bs-navbar-padding-y: 0;
+    //     width: 100%;
+    // }
+
+
+    // .navbar-nav {
+    //     margin: 0rem;
+    // }
+
+
+    // .nav-link {
+    //     font-size: 1rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: white;
+    //     margin: 1rem;
+    // }
+
+    // /* -------------------------------------------------------------------------------------------*/
+    // /* -------------------------MAIN INDEX MOBILE----------------------------------------------- */
+    // /* ---------------------------------------------------------------------------------------- */
+
+    // main {
+    //     margin-top: 21%;
+    // }
+
+    // .control__imagen {
+    //     height: 275px;
+    // }
+
+    // .control__imagen img {
+    //     height: 275px;
+    //     object-fit: cover;
+    // }
+
+    // .bienvenidos__mainindex h2 {
+    //     font-size: 1.3rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: black;
+    // }
+
+    // .bienvenidos__mainindex p {
+    //     font-size: 1.2rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-align: auto;
+    //     color: black;
+    // }
+
+    // /* ------------------------------------------------------------------------------------------- */
+    // /* --------------------MAIN ALOJAMIENTO MOBILE----------------------------------------------- */
+    // /* ----------------------------------------------------------------------------------------- */
+
+    // .main__galeria {
+    //     margin-top: 28%;
+    // }
+
+    // .titulo__alojamiento h2 {
+    //     font-size: 1.3rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-weight: bolder;
+    //     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     color: black;
+    // }
+
+    // .descripcion__alojamiento p {
+    //     font-size: 1.2rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     text-align: auto;
+    //     color: black;
+    // }
+
+    // .gridGaleria__container {
+    //     display: grid;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     grid-template-columns: 100%;
+    //     grid-template-areas:
+    //         "img"
+    //         "texto"
+    //         "img2"
+    //         "texto2"
+    //         "img3"
+    //         "texto3"
+    //         "img4"
+    //         "texto4";
+    //     /* gap: 1rem;
+    //     row-gap: 1rem; */
+    // }
+
+    // .imagenUno {
+    //     grid-area: img;
+    //     width: 22rem;
+    //     height: 22rem;
+    // }
+
+    // .imagenDos {
+    //     grid-area: img2;
+    //     width: 22rem;
+    //     height: 22rem;
+    // }
+
+    // .imagenTres {
+    //     grid-area: img3;
+    //     width: 22rem;
+    //     height: 22rem;
+    // }
+
+    // .imagenCuatro {
+    //     grid-area: img4;
+    //     width: 22rem;
+    //     height: 22rem;
+    // }
+
+    // .carousel__galeria img {
+    //     width: 22rem;
+    //     height: 22rem;
+    //     border-radius: 10%;
+    // }
+
+    // .carousel__galeria2 img {
+    //     width: 22rem;
+    //     height: 22rem;
+    //     border-radius: 10%;
+    // }
+
+
+    // .main__descripcionGaleria {
+    //     opacity: 1.5;
+    //     border-radius: 50px 50px;
+    //     border-style: double;
+    //     padding: 2.5px 5px;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    // .main__descripcionGaleria h3 {
+    //     font-size: 1rem;
+    //     text-align: center;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: black;
+    //     text-shadow: 4px 4px 7px rgb(9, 9, 9)
+    // }
+
+    // .main__descripcionGaleria p {
+    //     font-size: 0.9rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: black;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    // }
+
+
+    // .main__descripcionGaleria2 {
+    //     opacity: 1.5;
+    //     border-radius: 50px 50px;
+    //     padding: 2.5px 5px;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    // .main__descripcionGaleria2 h3 {
+    //     color: black;
+    //     font-size: 1rem;
+    //     text-align: center;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-shadow: 4px 4px 7px rgb(9, 9, 9)
+    // }
+
+    // .main__descripcionGaleria2 p {
+    //     font-size: 0.9rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    // }
+
+    // .main__descripcionGaleria3 {
+    //     /* opacity: 1.5; */
+    //     border-radius: 50px 50px;
+    //     padding: 2.5px 5px;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+
+    // .main__descripcionGaleria3 h3 {
+    //     color: #ff8800;
+    //     font-size: 1.3rem;
+    //     text-align: center;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-shadow: 4px 4px 7px rgb(9, 9, 9)
+    // }
+
+    // .main__descripcionGaleria3 p {
+    //     font-size: 1rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    // }
+
+    // .main__descripcionGaleria4 {
+    //     /* opacity: 1.5; */
+    //     border-radius: 50px 50px;
+    //     padding: 2.5px 5px;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+
+    // .main__descripcionGaleria4 h3 {
+    //     color: #ff8800;
+    //     font-size: 1.3rem;
+    //     font-weight: bolder;
+    //     text-align: center;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-shadow: 4px 4px 7px rgb(9, 9, 9)
+    // }
+
+    // .main__descripcionGaleria4 p {
+    //     font-size: 1rem;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    // }
+
+    // /******************************************************************************************************/
+    // /*                                                                                                   */
+    // /*                            main servicios                                                        */
+    // /*                                                                                                 */
+    // /**************************************************************************************************/
+
+
+    // .grid {
+    //     display: grid;
+    //     grid-template-columns: 33.33% 33.33% 33.33%;
+    //     grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content;
+    //     grid-template-areas:
+    //         "img1 img2 img3"
+    //         "title1 title2 title3"
+    //         "img4 img5 img6"
+    //         "title4 title5 title6"
+    //         "img7 img8 img9"
+    //         "title7 title8 title9"
+    //         "img10 img11 img12"
+    //         "title10 title11 title12";
+    //     grid-column-gap: 1rem;
+    //     grid-row-gap: 1rem;
+    //     justify-items: center;
+    // }
+
+    // .detalles__servicios .main__servicios {
+    //     font-size: 1.3rem;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     color: black;
+    // }
+
+    // .detalles__servicios p {
+    //     font-size: 1.2rem;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     color: black;
+    // }
+
+    // .grid {
+    //     margin: 1rem;
+    //     padding: 1rem;
+    // }
+
+    // .grid .grid__detalle {
+    //     grid-area: detalle;
+    //     font-size: 36px;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     text-align: center;
+    // }
+
+    // .grid .grid__title1 {
+    //     grid-area: title1;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     text-align: center;
+    //     color: black;
+    // }
+
+    // .grid .grid__title2 {
+    //     grid-area: title2;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title3 {
+    //     grid-area: title3;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title4 {
+    //     grid-area: title4;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title5 {
+    //     grid-area: title5;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title6 {
+    //     grid-area: title6;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title7 {
+    //     grid-area: title7;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title8 {
+    //     grid-area: title8;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title9 {
+    //     grid-area: title9;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title10 {
+    //     grid-area: title10;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title11 {
+    //     grid-area: title11;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__title12 {
+    //     grid-area: title12;
+    //     font-size: large;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
+
+    // .grid .grid__img1 {
+    //     grid-area: img1;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img2 {
+    //     grid-area: img2;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img3 {
+    //     grid-area: img3;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img4 {
+    //     grid-area: img4;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img5 {
+    //     grid-area: img5;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img6 {
+    //     grid-area: img6;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img7 {
+    //     grid-area: img7;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img8 {
+    //     grid-area: img8;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img9 {
+    //     grid-area: img9;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img10 {
+    //     grid-area: img10;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img11 {
+    //     grid-area: img11;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
+
+    // .grid .grid__img12 {
+    //     grid-area: img12;
+    //     width: 70px;
+    //     height: 70px;
+    //     border-radius: 1rem;
+    // }
 
     /* ----------------------------------------------------------------------------------------------- */
     /* ----------------------------------IMAGENES MOBILE--------------------------------------------- */
@@ -2855,162 +2855,161 @@ textarea {
     /* -----------------------------------------CONTACTO MOBILE---------------------------------------- */
     /* ----------------------------------------------------------------------------------------------- */
 
-    .main__contacto {
-        margin: 7rem;
-        flex-direction: column;
-        align-items: center;
-    }
+    // .main__contacto {
+    //     margin: 7rem;
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
 
-    .formulario__contacto {
-        width: 100%;
-    }
-
-
-    .formulario__contacto h5 {
-        font-size: 1.4rem;
-        font-weight: bolder;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-        text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-        margin-top: 0;
-    }
-
-    label {
-        font-size: 1.2rem;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-    }
+    // .formulario__contacto {
+    //     width: 100%;
+    // }
 
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="date"],
-    textarea {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-    }
+    // .formulario__contacto h5 {
+    //     font-size: 1.4rem;
+    //     font-weight: bolder;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    //     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+    //     margin-top: 0;
+    // }
 
-    textarea {
-        height: 150px;
-    }
-
-    .button__enviar {
-        padding: 10px 20px;
-        background-color: black;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-
-    .button__enviar:hover {
-        background-color: rgba(252, 102, 33, 1);
-    }
+    // label {
+    //     font-size: 1.2rem;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    // }
 
 
-    .descripcion__contacto1 h5 {
-        font-size: 1.2rem;
-        font-weight: bolder;
-        text-align: center;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-        text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-        margin: 1rem;
-    }
+    // input[type="text"],
+    // input[type="email"],
+    // input[type="tel"],
+    // input[type="date"],
+    // textarea {
+    //     width: 100%;
+    //     padding: 5px;
+    //     margin-bottom: 10px;
+    // }
+
+    // textarea {
+    //     height: 150px;
+    // }
+
+    // .button__enviar {
+    //     padding: 10px 20px;
+    //     background-color: black;
+    //     color: white;
+    //     border: none;
+    //     cursor: pointer;
+    // }
+
+    // .button__enviar:hover {
+    //     background-color: rgba(252, 102, 33, 1);
+    // }
 
 
-    .descripcion__contacto3 {
-        justify-content: center;
-        text-align: center;
-    }
+    // .descripcion__contacto1 h5 {
+    //     font-size: 1.2rem;
+    //     font-weight: bolder;
+    //     text-align: center;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    //     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+    //     margin: 1rem;
+    // }
 
 
-    .descripcion__contacto3 img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .descripcion__contacto3 p {
-        margin: 0rem;
-        font-size: 1.2rem;
-        font-family: "Ubuntu Condensed", sans-serif;
-        color: black;
-        line-height: 1;
-        justify-content: center;
-        text-align: center;
-    }
-
-    /* ----------------------------------------------------------------- */
-    /* --------------------------FOOTER-------------------------------- */
-    /* ----------------------------------------------------------------- */
-
-    .grid__footer {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-    }
-
-    .grid__footer img {
-        width: 1.5rem;
-        height: 1.5rem;
-        padding: 2px 2px;
-    }
-
-    .titulo__descripcion {
-        color: white;
-        font-weight: bold;
-        font-size: 11pt;
-        text-transform: uppercase;
-    }
-
-    .ubicacion__mapa iframe {
-        width: 10rem;
-        height: 10rem;
-    }
-
-    .descripcion__contacto2 img {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    .descripcion__contacto2 p {
-        font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 1rem;
-        color: white;
-    }
-
-    .donde__nosencontramos p {
-        font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 0.9rem;
-        color: white;
-        text-align: center;
-    }
-
-    .redes__sociales p {
-        font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 1rem;
-        color: white;
-    }
-
-    .redes__sociales img {
-        background-color: none;
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-
-    .copy__right {
-        grid-area: copy__right;
-        background-color: black;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        font-size: 0.7rem;
-        text-align: center;
-        align-self: center;
-        padding: 10px;
-        color: white;
-    }
+    // .descripcion__contacto3 {
+    //     justify-content: center;
+    //     text-align: center;
+    // }
 
 
-}
+    // .descripcion__contacto3 img {
+    //     width: 20px;
+    //     height: 20px;
+    // }
+
+    // .descripcion__contacto3 p {
+    //     margin: 0rem;
+    //     font-size: 1.2rem;
+    //     font-family: "Ubuntu Condensed", sans-serif;
+    //     color: black;
+    //     line-height: 1;
+    //     justify-content: center;
+    //     text-align: center;
+    // }
+
+    // /* ----------------------------------------------------------------- */
+    // /* --------------------------FOOTER-------------------------------- */
+    // /* ----------------------------------------------------------------- */
+
+    // .grid__footer {
+    //     display: flex;
+    //     flex-direction: column;
+    //     width: 100%;
+    //     height: 100%;
+    //     align-items: center;
+    // }
+
+    // .grid__footer img {
+    //     width: 1.5rem;
+    //     height: 1.5rem;
+    //     padding: 2px 2px;
+    // }
+
+    // .titulo__descripcion {
+    //     color: white;
+    //     font-weight: bold;
+    //     font-size: 11pt;
+    //     text-transform: uppercase;
+    // }
+
+    // .ubicacion__mapa iframe {
+    //     width: 10rem;
+    //     height: 10rem;
+    // }
+
+    // .descripcion__contacto2 img {
+    //     width: 1.5rem;
+    //     height: 1.5rem;
+    // }
+
+    // .descripcion__contacto2 p {
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-size: 1rem;
+    //     color: white;
+    // }
+
+    // .donde__nosencontramos p {
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-size: 0.9rem;
+    //     color: white;
+    //     text-align: center;
+    // }
+
+    // .redes__sociales p {
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-size: 1rem;
+    //     color: white;
+    // }
+
+    // .redes__sociales img {
+    //     background-color: none;
+    //     width: 1.5rem;
+    //     height: 1.5rem;
+    // }
+
+    // .copy__right {
+    //     grid-area: copy__right;
+    //     background-color: black;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-size: 0.7rem;
+    //     text-align: center;
+    //     align-self: center;
+    //     padding: 10px;
+    //     color: white;
+    // }
+
+
