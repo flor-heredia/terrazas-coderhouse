@@ -2177,7 +2177,7 @@ textarea {
   /* ------------------------------------------------------------------------------------------------ */
   /* --------------------MAIN ALOJAMIENTO MOBILE---------------------------------------------------- */
   /* ---------------------------------------------------------------------------------------------- */
-  .main__galeria {
+  .main__alojamiento {
     margin-top: 30%;
   }
   .titulo__alojamiento h2 {
@@ -2305,7 +2305,6 @@ textarea {
     padding: 1rem;
   }
   .main__descripcionGaleria4 {
-    /* opacity: 1.5; */
     border-radius: 50px 50px;
     padding: 2.5px 5px;
     -webkit-box-pack: center;
@@ -2552,7 +2551,7 @@ textarea {
   }
   .grid__galeria .grid__imagen2 {
     grid-area: imagen2;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text2 {
@@ -2564,7 +2563,7 @@ textarea {
   }
   .grid__galeria .grid__imagen3 {
     grid-area: imagen3;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text3 {
@@ -2576,7 +2575,7 @@ textarea {
   }
   .grid__galeria .grid__imagen4 {
     grid-area: imagen4;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text4 {
@@ -2588,7 +2587,7 @@ textarea {
   }
   .grid__galeria .grid__imagen5 {
     grid-area: imagen5;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text5 {
@@ -2600,175 +2599,175 @@ textarea {
   }
   .grid__galeria .grid__imagen6 {
     grid-area: imagen6;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text6 {
     grid-area: text6;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen7 {
     grid-area: imagen7;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text7 {
     grid-area: text7;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen8 {
     grid-area: imagen8;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text8 {
     grid-area: text8;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen9 {
     grid-area: imagen9;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text9 {
     grid-area: text9;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen10 {
     grid-area: imagen10;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text10 {
     grid-area: text10;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen11 {
     grid-area: imagen11;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text11 {
     grid-area: text11;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen12 {
     grid-area: imagen12;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text12 {
     grid-area: text12;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen13 {
     grid-area: imagen13;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text13 {
     grid-area: text13;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen14 {
     grid-area: imagen14;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text14 {
     grid-area: text14;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen15 {
     grid-area: imagen15;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text15 {
     grid-area: text15;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen16 {
     grid-area: imagen16;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text16 {
     grid-area: text16;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen17 {
     grid-area: imagen17;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text17 {
     grid-area: text17;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen18 {
     grid-area: imagen18;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text18 {
     grid-area: text18;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen19 {
     grid-area: imagen19;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text19 {
     grid-area: text19;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
   }
   .grid__galeria .grid__imagen20 {
     grid-area: imagen20;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text20 {
