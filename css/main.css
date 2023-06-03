@@ -2088,13 +2088,13 @@ textarea {
     padding: 2px 2px;
   }
 }
-/* ----------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------- */
 /*----------------------------------------MEDIA QUERIES MOBILE-------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
 @media screen and (max-width: 480px) {
-  /* ----------------------------------------------------------------- */
-  /* --------------------------HEADER MOBILE-------------------------------- */
-  /* ----------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* --------------------------------------HEADER MOBILE------------------------------------------------- */
+  /* --------------------------------------------------------------------------------------------------- */
   header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2149,9 +2149,9 @@ textarea {
     color: white;
     margin: 1rem;
   }
-  /* -----------------------------------------------------------------*/
-  /* -------------------------MAIN INDEX MOBILE---------------------- */
-  /* -------------------------------------------------------------- */
+  /* --------------------------------------------------------------------------------------------------*/
+  /* ----------------------------------MAIN INDEX MOBILE--------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------------- */
   main {
     margin-top: 21%;
   }
@@ -2174,19 +2174,19 @@ textarea {
     text-align: auto;
     color: black;
   }
-  /* ----------------------------------------------------------- */
-  /* --------------------MAIN ALOJAMIENTO MOBILE--------------- */
-  /* --------------------------------------------------------- */
+  /* ------------------------------------------------------------------------------------------------ */
+  /* --------------------MAIN ALOJAMIENTO MOBILE---------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------- */
   .main__galeria {
-    margin-top: 28%;
+    margin-top: 30%;
   }
   .titulo__alojamiento h2 {
     font-size: 1.3rem;
     font-family: "Ubuntu Condensed", sans-serif;
     font-weight: bolder;
     text-shadow: 4px 4px 7px rgb(252, 102, 33);
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1.2rem;
+    padding: 1.2rem;
     color: black;
   }
   .descripcion__alojamiento p {
@@ -2199,41 +2199,35 @@ textarea {
   }
   .gridGaleria__container {
     display: grid;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.8rem;
+    padding: 0.8rem;
     grid-template-columns: 100%;
     grid-template-areas: "img" "texto" "img2" "texto2" "img3" "texto3" "img4" "texto4";
-    gap: 1rem;
-    row-gap: 1rem;
+    gap: 0.8rem;
+    row-gap: 8rem;
   }
   .imagenUno {
     grid-area: img;
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
   }
   .imagenDos {
     grid-area: img2;
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
   }
   .imagenTres {
     grid-area: img3;
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
   }
   .imagenCuatro {
     grid-area: img4;
-    width: 25rem;
-    height: 25rem;
+    width: 100%;
   }
   .carousel__galeria img {
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
     border-radius: 10%;
   }
   .main__descripcionGaleria {
@@ -2546,8 +2540,7 @@ textarea {
   }
   .grid__galeria .grid__imagen1 {
     grid-area: imagen1;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text1 {
@@ -2559,8 +2552,7 @@ textarea {
   }
   .grid__galeria .grid__imagen2 {
     grid-area: imagen2;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text2 {
@@ -2572,8 +2564,7 @@ textarea {
   }
   .grid__galeria .grid__imagen3 {
     grid-area: imagen3;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text3 {
@@ -2585,8 +2576,7 @@ textarea {
   }
   .grid__galeria .grid__imagen4 {
     grid-area: imagen4;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text4 {
@@ -2598,8 +2588,7 @@ textarea {
   }
   .grid__galeria .grid__imagen5 {
     grid-area: imagen5;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text5 {
@@ -2611,8 +2600,7 @@ textarea {
   }
   .grid__galeria .grid__imagen6 {
     grid-area: imagen6;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text6 {
@@ -2624,8 +2612,7 @@ textarea {
   }
   .grid__galeria .grid__imagen7 {
     grid-area: imagen7;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text7 {
@@ -2637,8 +2624,7 @@ textarea {
   }
   .grid__galeria .grid__imagen8 {
     grid-area: imagen8;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text8 {
@@ -2650,8 +2636,7 @@ textarea {
   }
   .grid__galeria .grid__imagen9 {
     grid-area: imagen9;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text9 {
@@ -2663,8 +2648,7 @@ textarea {
   }
   .grid__galeria .grid__imagen10 {
     grid-area: imagen10;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text10 {
@@ -2676,8 +2660,7 @@ textarea {
   }
   .grid__galeria .grid__imagen11 {
     grid-area: imagen11;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text11 {
@@ -2689,8 +2672,7 @@ textarea {
   }
   .grid__galeria .grid__imagen12 {
     grid-area: imagen12;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text12 {
@@ -2702,8 +2684,7 @@ textarea {
   }
   .grid__galeria .grid__imagen13 {
     grid-area: imagen13;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text13 {
@@ -2715,8 +2696,7 @@ textarea {
   }
   .grid__galeria .grid__imagen14 {
     grid-area: imagen14;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text14 {
@@ -2728,8 +2708,7 @@ textarea {
   }
   .grid__galeria .grid__imagen15 {
     grid-area: imagen15;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text15 {
@@ -2741,8 +2720,7 @@ textarea {
   }
   .grid__galeria .grid__imagen16 {
     grid-area: imagen16;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text16 {
@@ -2754,8 +2732,7 @@ textarea {
   }
   .grid__galeria .grid__imagen17 {
     grid-area: imagen17;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text17 {
@@ -2767,8 +2744,7 @@ textarea {
   }
   .grid__galeria .grid__imagen18 {
     grid-area: imagen18;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text18 {
@@ -2780,8 +2756,7 @@ textarea {
   }
   .grid__galeria .grid__imagen19 {
     grid-area: imagen19;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text19 {
@@ -2793,8 +2768,7 @@ textarea {
   }
   .grid__galeria .grid__imagen20 {
     grid-area: imagen20;
-    width: 180px;
-    height: 180px;
+    width: 100%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text20 {
