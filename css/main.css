@@ -20,7 +20,7 @@ main {
 .control__imagen img {
   height: 550px;
   -o-object-fit: cover;
-     object-fit: cover;
+    object-fit: cover;
 }
 
 /*------------------------ ----------------------------------------------------- */
