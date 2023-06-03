@@ -2125,6 +2125,8 @@ textarea {
     }
 
 
+    // primer carrusel
+
     .main__descripcionGaleria {
         opacity: 1.5;
         border-radius: 50px 50px;
@@ -2135,21 +2137,24 @@ textarea {
     }
 
     .main__descripcionGaleria h3 {
+        margin: 1rem;
+        color: black;
         font-size: 1rem;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-weight: bolder;
+        text-shadow: 4px 4px 7px  #FF7A00 ;
         text-align: center;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: black;
-        text-shadow: 4px 4px 7px rgb(9, 9, 9)
     }
-
+    
     .main__descripcionGaleria p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-family: 'Ubuntu Condensed', sans-serif;
-        color: black;
         margin: 1rem;
         padding: 1rem;
+        color: black;
     }
 
+    
 
     .main__descripcionGaleria2 {
         opacity: 1.5;
