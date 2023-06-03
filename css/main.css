@@ -2539,12 +2539,12 @@ textarea {
   }
   .grid__galeria .grid__imagen1 {
     grid-area: imagen1;
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
   }
   .grid__galeria .grid__text1 {
     grid-area: text1;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
@@ -2556,7 +2556,7 @@ textarea {
   }
   .grid__galeria .grid__text2 {
     grid-area: text2;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
@@ -2568,7 +2568,7 @@ textarea {
   }
   .grid__galeria .grid__text3 {
     grid-area: text3;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
@@ -2580,7 +2580,7 @@ textarea {
   }
   .grid__galeria .grid__text4 {
     grid-area: text4;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
@@ -2592,7 +2592,7 @@ textarea {
   }
   .grid__galeria .grid__text5 {
     grid-area: text5;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: black;
