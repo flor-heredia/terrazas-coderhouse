@@ -2209,7 +2209,7 @@ textarea {
   .imagenUno {
     grid-area: img;
     width: 100%;
-    height: 24rem;
+    height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -2218,7 +2218,7 @@ textarea {
   .imagenDos {
     grid-area: img2;
     width: 100%;
-    height: 24rem;
+    height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -2227,7 +2227,7 @@ textarea {
   .imagenTres {
     grid-area: img3;
     width: 100%;
-    height: 24rem;
+    height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -2236,18 +2236,20 @@ textarea {
   .imagenCuatro {
     grid-area: img4;
     width: 100%;
-    height: 24rem;
+    height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     text-align:  center;
   }
   .carousel__galeria img {
-    height: auto;
+    width: 100%;
+    height: 22rem;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    height: auto;
+    width: 100%;
+    height: 22rem;
     border-radius: 10%;
   }
   .main__descripcionGaleria {
