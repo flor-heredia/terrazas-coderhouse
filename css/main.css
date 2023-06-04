@@ -2211,26 +2211,36 @@ textarea {
   }
   .imagenUno {
     grid-area: img;
-    height: auto;
+    width: 24rem;
+    height: 24rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
   }
   .imagenDos {
     grid-area: img2;
-    height: auto;
+    width: 25rem;
+    height: 25rem;
   }
   .imagenTres {
     grid-area: img3;
-    height: auto;
+    width: 25rem;
+    height: 25rem;
   }
   .imagenCuatro {
     grid-area: img4;
-    height: auto;
+    width: 25rem;
+    height: 25rem;
   }
   .carousel__galeria img {
-    height: auto;
+    width: 23rem;
+    height: 23rem;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    height: auto;
+    width: 24rem;
+    height: 24rem;
     border-radius: 10%;
   }
   .main__descripcionGaleria {

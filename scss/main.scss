@@ -2106,35 +2106,75 @@ textarea {
         row-gap: 08rem;
     }
 
+    
     .imagenUno {
         grid-area: img;
-        height: auto;
+        width: 24rem;
+        height: 24rem;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenDos {
         grid-area: img2;
-        height: auto;
+        width: 25rem;
+        height: 25rem;
     }
 
     .imagenTres {
         grid-area: img3;
-    height: auto;
+        width: 25rem;
+        height: 25rem;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        height: auto;
+        width: 25rem;
+        height: 25rem;
     }
 
     .carousel__galeria img {
-        height: auto;
+        width: 23rem;
+        height: 23rem;
         border-radius: 10%;
     }
 
     .carousel__galeria2 img {
-        height: auto;
+        width: 24rem;
+        height: 24rem;
         border-radius: 10%;
     }
+
+
+    // .imagenUno {
+    //     grid-area: img;
+    //     height: auto;
+    // }
+
+    // .imagenDos {
+    //     grid-area: img2;
+    //     height: auto;
+    // }
+
+    // .imagenTres {
+    //     grid-area: img3;
+    // height: auto;
+    // }
+
+    // .imagenCuatro {
+    //     grid-area: img4;
+    //     height: auto;
+    // }
+
+    // .carousel__galeria img {
+    //     height: auto;
+    //     border-radius: 10%;
+    // }
+
+    // .carousel__galeria2 img {
+    //     height: auto;
+    //     border-radius: 10%;
+    // }
 
 
     // primer carrusel
