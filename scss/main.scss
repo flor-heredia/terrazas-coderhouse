@@ -1094,8 +1094,8 @@ textarea {
         display: grid;
         justify-content: center;
         align-items: center;
-        margin: 0rem;
-        padding: 0rem;
+        margin: 1rem;
+        padding: 1rem;
         grid-template-columns: 1fr;
         grid-template-areas:
             "img"
@@ -1106,8 +1106,8 @@ textarea {
             "texto3"
             "img4"
             "texto4";
-        gap: 0.5rem;
-        row-gap: 0.5rem;
+        gap: 1.5rem;
+        row-gap: 1.5rem;
     }
 
     .imagenUno {
