@@ -1334,12 +1334,12 @@ textarea {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0rem;
-    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
     grid-template-columns: 1fr;
     grid-template-areas: "img" "texto" "img2" "texto2" "img3" "texto3" "img4" "texto4";
-    gap: 0rem;
-    row-gap: 2rem;
+    gap: 1.8rem;
+    row-gap: 1.8rem;
   }
   .imagenUno {
     grid-area: img;
