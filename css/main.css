@@ -2209,28 +2209,12 @@ textarea {
     gap: 0.8rem;
     row-gap: 8rem;
   }
-  .imagenUno {
-    grid-area: img;
-    width: 80%;
-  }
-  .imagenDos {
-    grid-area: img2;
-    width: 80%;
-  }
-  .imagenTres {
-    grid-area: img3;
-    width: 80%;
-  }
-  .imagenCuatro {
-    grid-area: img4;
-    width: 80%;
-  }
   .carousel__galeria img {
-    width: 80%;
+    height: auto;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    width: 80%;
+    height: auto;
     border-radius: 10%;
   }
   .main__descripcionGaleria {
