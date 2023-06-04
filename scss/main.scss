@@ -2104,22 +2104,42 @@ textarea {
 
     .imagenUno {
         grid-area: img;
-        height: auto;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenDos {
         grid-area: img2;
-        height: auto;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenTres {
         grid-area: img3;
-        width: 80%;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        width: 80%;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .carousel__galeria img {
