@@ -1344,7 +1344,7 @@ textarea {
   }
   .imagenUno {
     grid-area: img;
-    width: 100%;
+    width: 80%;
     height: 20rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1353,7 +1353,7 @@ textarea {
   }
   .imagenDos {
     grid-area: img2;
-    width: 100%;
+    width: 80%;
     height: 20rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1362,7 +1362,7 @@ textarea {
   }
   .imagenTres {
     grid-area: img3;
-    width: 100%;
+    width: 80%;
     height: 20rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1371,7 +1371,7 @@ textarea {
   }
   .imagenCuatro {
     grid-area: img4;
-    width: 100%;
+    width: 80%;
     height: 20rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
