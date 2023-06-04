@@ -974,7 +974,7 @@ textarea {
 /*                                                                                             */
 /***********************************************************************************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
     /* -------------------------------------------------------------------------------------- */
     /* ---------------------------------------header---------------------------------------- */
@@ -1510,23 +1510,28 @@ textarea {
 
     .grid__galeria {
         display: grid;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-rows: 14(min-content);
+        grid-template-columns: 50% 50%;
         grid-template-areas:
-            "imagen1 imagen2 imagen3"
-            "text1 text2 text3"
-            "imagen4 imagen5 imagen6"
-            "text4 text5 text6"
-            "imagen7 imagen8 imagen9"
-            "text7 text8 text9"
-            "imagen10 imagen11 imagen12"
-            "text10 text11 text12"
-            "imagen13 imagen14 imagen15"
-            "text13 text14 text15"
-            "imagen16 imagen17 imagen18"
-            "text16 text17 text18"
-            "imagen19 imagen20 imagen21"
-            "text19 text20 text21";
+            "imagen1 imagen2"
+            "text1 text2"
+            "imagen3 imagen4"
+            "text3 text4"
+            "imagen5 imagen6"
+            "text5 text6"
+            "imagen7 imagen8"
+            "text7 text8"
+            "imagen9 imagen10"
+            "text9 text10"
+            "imagen11 imagen12"
+            "text11 text12"
+            "imagen13 imagen14"
+            "text13 text14"
+            "imagen15 imagen16"
+            "text15 text16"
+            "imagen17 imagen18"
+            "text17 text18"
+            "imagen19 imagen20"
+            "text19 text20";
         grid-column-gap: 0.5rem;
         grid-row-gap: 0.5rem;
         justify-items: center;
@@ -1848,7 +1853,7 @@ textarea {
     }
 
     /* ----------------------------------------------------------------------------------------- */
-    /* -------------------------------------CONTACTO MOOBILE----------------------------------- */
+    /* -------------------------------------CONTACTO TABLET----------------------------------- */
     /* --------------------------------------------------------------------------------------- */
     
 .main__contacto {
