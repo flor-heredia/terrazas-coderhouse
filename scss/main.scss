@@ -1094,9 +1094,8 @@ textarea {
         display: grid;
         justify-content: center;
         align-items: center;
-        margin-bottom: 1rem;
-        margin: 1rem;
-        padding: 1rem;
+        margin: 0rem;
+        padding: 0;
         grid-template-columns: 1fr;
         grid-template-areas:
             "img"
@@ -1107,80 +1106,41 @@ textarea {
             "texto3"
             "img4"
             "texto4";
-        gap: 1.5rem;
-        row-gap: 1.5rem;
+        gap: 0rem;
+        row-gap: 2rem;
     }
-
 
     .imagenUno {
         grid-area: img;
-        width: 80%;
-        height: 20rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        height: 40rem;
     }
 
     .imagenDos {
         grid-area: img2;
-        width: 80%;
-        height: 20rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        height: 40rem;
     }
 
     .imagenTres {
         grid-area: img3;
-        width: 80%;
-        height: 20rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        height: 40rem;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        width: 80%;
-        height: 20rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        height: 40rem;
     }
 
-    // .imagenUno {
-    //     grid-area: img;
-    //     height: 40rem;
-    // }
+    .carousel__galeria img {
+        width: 40rem;
+        height: 40rem;
+        border-radius: 10%;
+    }
 
-    // .imagenDos {
-    //     grid-area: img2;
-    //     height: 40rem;
-    // }
-
-    // .imagenTres {
-    //     grid-area: img3;
-    //     height: 40rem;
-    // }
-
-    // .imagenCuatro {
-    //     grid-area: img4;
-    //     height: 40rem;
-    // }
-
-    // .carousel__galeria img {
-    //     height: 40rem;
-    //     border-radius: 10%;
-    // }
-
-    // .carousel__galeria2 img {
-    //     height: 40rem;
-    //     border-radius: 10%;
-    // }
+    .carousel__galeria2 img {
+        width: 40rem;
+        height: 40rem;
+        border-radius: 10%;
+    }
 
     /* ----------------------------------------------------------------------------------------------------------- */
     /*----------------------------------Primera Carousel y Descripcion-------------------------------------------- */
@@ -2154,12 +2114,12 @@ textarea {
 
     .imagenTres {
         grid-area: img3;
-    height: auto;
+        width: 80%;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        height: auto;
+        width: 80%;
     }
 
     .carousel__galeria img {
