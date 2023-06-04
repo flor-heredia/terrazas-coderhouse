@@ -2096,31 +2096,37 @@ textarea {
 
     .imagenUno {
         grid-area: img;
-        width: 100%;
+        width: 24rem;
+        height: 24rem;
     }
 
     .imagenDos {
         grid-area: img2;
-        width: 100%;
+        width: 24rem;
+        height: 24rem;
     }
 
     .imagenTres {
         grid-area: img3;
-        width: 100%;
+        width: 24rem;
+        height: 24rem;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        width: 100%;
+        width: 24rem;
+        height: 24rem;
     }
 
     .carousel__galeria img {
-        width: 100%;
+        width: 23rem;
+        height: 23rem;
         border-radius: 10%;
     }
 
     .carousel__galeria2 img {
-        width: 100%;
+        width: 23rem;
+        height: 23rem;
         border-radius: 10%;
     }
 
