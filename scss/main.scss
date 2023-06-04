@@ -1271,6 +1271,9 @@ textarea {
 /*--------------------------------------SERVICIOS TABLET------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
 
+.main__serv{
+    margin-top: 30%;
+}
 
 .grid {
     display: grid;
@@ -1292,12 +1295,13 @@ textarea {
 }
 
 
+
 .detalles__servicios .main__servicios {
     font-size: 1.8rem;
     font-family: "Ubuntu Condensed", sans-serif;
     font-weight: bolder;
     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-    margin: rem;
+    margin: 1.3rem;
     padding: 1rem;
     color: black;
 }
