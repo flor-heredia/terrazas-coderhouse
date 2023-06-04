@@ -1111,35 +1111,76 @@ textarea {
         row-gap: 1.5rem;
     }
 
+
     .imagenUno {
         grid-area: img;
-        height: 40rem;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenDos {
         grid-area: img2;
-        height: 40rem;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenTres {
         grid-area: img3;
-        height: 40rem;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagenCuatro {
         grid-area: img4;
-        height: 40rem;
+        width: 100%;
+        height: 24rem;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
     }
 
-    .carousel__galeria img {
-        height: 40rem;
-        border-radius: 10%;
-    }
+    // .imagenUno {
+    //     grid-area: img;
+    //     height: 40rem;
+    // }
 
-    .carousel__galeria2 img {
-        height: 40rem;
-        border-radius: 10%;
-    }
+    // .imagenDos {
+    //     grid-area: img2;
+    //     height: 40rem;
+    // }
+
+    // .imagenTres {
+    //     grid-area: img3;
+    //     height: 40rem;
+    // }
+
+    // .imagenCuatro {
+    //     grid-area: img4;
+    //     height: 40rem;
+    // }
+
+    // .carousel__galeria img {
+    //     height: 40rem;
+    //     border-radius: 10%;
+    // }
+
+    // .carousel__galeria2 img {
+    //     height: 40rem;
+    //     border-radius: 10%;
+    // }
 
     /* ----------------------------------------------------------------------------------------------------------- */
     /*----------------------------------Primera Carousel y Descripcion-------------------------------------------- */
@@ -2100,55 +2141,36 @@ textarea {
         gap: 0.8rem;
         row-gap: 08rem;
     }
+
     .imagenUno {
         grid-area: img;
-        width: 100%;
-        height: 24rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        height: auto;
     }
 
     .imagenDos {
-        grid-area: img;
-        width: 100%;
-        height: 24rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        grid-area: img2;
+        height: auto;
     }
 
     .imagenTres {
-        grid-area: img;
-        width: 100%;
-        height: 24rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+        grid-area: img3;
+    height: auto;
     }
 
-    .imagenUno {
-        grid-area: img;
-        width: 100%;
-        height: 24rem;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-align: center;
+    .imagenCuatro {
+        grid-area: img4;
+        height: auto;
     }
 
-    // .carousel__galeria img {
-    //     height: auto;
-    //     border-radius: 10%;
-    // }
+    .carousel__galeria img {
+        height: auto;
+        border-radius: 10%;
+    }
 
-    // .carousel__galeria2 img {
-    //     height: auto;
-    //     border-radius: 10%;
-    // }
+    .carousel__galeria2 img {
+        height: auto;
+        border-radius: 10%;
+    }
 
 
     // primer carrusel
