@@ -2206,35 +2206,30 @@ textarea {
   }
   .imagenUno {
     grid-area: img;
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
   }
   .imagenDos {
     grid-area: img2;
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
   }
   .imagenTres {
     grid-area: img3;
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
   }
   .imagenCuatro {
     grid-area: img4;
-    width: 24rem;
-    height: 24rem;
+    width: 100%;
   }
   .carousel__galeria img {
-    width: 23rem;
-    height: 23rem;
+    width: 100%;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    width: 23rem;
-    height: 23rem;
+    width: 100%;
     border-radius: 10%;
   }
   .main__descripcionGaleria {
+    background-color: white;
     opacity: 1.5;
     border-radius: 50px 50px;
     border-style: double;
@@ -2263,6 +2258,7 @@ textarea {
     color: black;
   }
   .main__descripcionGaleria2 {
+    background-color: white;
     opacity: 1.5;
     border-radius: 50px 50px;
     padding: 2.5px 5px;
@@ -2274,20 +2270,23 @@ textarea {
             align-items: center;
   }
   .main__descripcionGaleria2 h3 {
+    margin: 1rem;
     color: black;
     font-size: 1rem;
-    text-align: center;
     font-family: "Ubuntu Condensed", sans-serif;
-    text-shadow: 4px 4px 7px rgb(9, 9, 9);
+    font-weight: bolder;
+    text-shadow: 4px 4px 7px #FF7A00;
+    text-align: center;
   }
   .main__descripcionGaleria2 p {
     font-size: 0.9rem;
     font-family: "Ubuntu Condensed", sans-serif;
+    color: black;
     margin: 1rem;
     padding: 1rem;
   }
   .main__descripcionGaleria3 {
-    /* opacity: 1.5; */
+    background-color: white;
     border-radius: 50px 50px;
     padding: 2.5px 5px;
     -webkit-box-pack: center;
@@ -2298,19 +2297,23 @@ textarea {
             align-items: center;
   }
   .main__descripcionGaleria3 h3 {
-    color: #ff8800;
-    font-size: 1.3rem;
-    text-align: center;
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
-    text-shadow: 4px 4px 7px rgb(9, 9, 9);
+    font-weight: bolder;
+    text-shadow: 4px 4px 7px #FF7A00;
+    text-align: center;
   }
   .main__descripcionGaleria3 p {
     font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
+    color: black;
     margin: 1rem;
     padding: 1rem;
   }
   .main__descripcionGaleria4 {
+    background-color: white;
     border-radius: 50px 50px;
     padding: 2.5px 5px;
     -webkit-box-pack: center;
@@ -2321,16 +2324,18 @@ textarea {
             align-items: center;
   }
   .main__descripcionGaleria4 h3 {
-    color: #ff8800;
-    font-size: 1.3rem;
-    font-weight: bolder;
-    text-align: center;
+    margin: 1rem;
+    color: black;
+    font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
-    text-shadow: 4px 4px 7px rgb(9, 9, 9);
+    font-weight: bolder;
+    text-shadow: 4px 4px 7px #FF7A00;
+    text-align: center;
   }
   .main__descripcionGaleria4 p {
     font-size: 1rem;
     font-family: "Ubuntu Condensed", sans-serif;
+    color: black;
     margin: 1rem;
     padding: 1rem;
   }
