@@ -2477,7 +2477,6 @@ textarea {
     .grid__galeria {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20 (min-content);
         grid-template-areas:
             "imagen1"
             "text1" 
