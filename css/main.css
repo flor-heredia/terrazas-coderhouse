@@ -2217,7 +2217,7 @@ textarea {
   }
   .imagenDos {
     grid-area: img2;
-    width: 100%;
+    width: 80%;
     height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -2226,7 +2226,7 @@ textarea {
   }
   .imagenTres {
     grid-area: img3;
-    width: 100%;
+    width: 80%;
     height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -2235,7 +2235,7 @@ textarea {
   }
   .imagenCuatro {
     grid-area: img4;
-    width: 100%;
+    width: 80%;
     height: 22rem;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -2243,12 +2243,12 @@ textarea {
     text-align:  center;
   }
   .carousel__galeria img {
-    width: 100%;
+    width: 80%;
     height: 22rem;
     border-radius: 10%;
   }
   .carousel__galeria2 img {
-    width: 100%;
+    width: 80%;
     height: 22rem;
     border-radius: 10%;
   }
