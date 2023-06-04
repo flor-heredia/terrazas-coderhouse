@@ -2209,6 +2209,22 @@ textarea {
     gap: 0.8rem;
     row-gap: 8rem;
   }
+  .imagenUno {
+    grid-area: img;
+    height: auto;
+  }
+  .imagenDos {
+    grid-area: img2;
+    height: auto;
+  }
+  .imagenTres {
+    grid-area: img3;
+    height: auto;
+  }
+  .imagenCuatro {
+    grid-area: img4;
+    height: auto;
+  }
   .carousel__galeria img {
     height: auto;
     border-radius: 10%;

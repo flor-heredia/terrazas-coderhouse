@@ -2106,26 +2106,25 @@ textarea {
         row-gap: 08rem;
     }
 
-    // .imagenUno {
-    //     grid-area: img;
-    //     width: 80%;
-    //     height: auto;
-    // }
+    .imagenUno {
+        grid-area: img;
+        height: auto;
+    }
 
-    // .imagenDos {
-    //     grid-area: img2;
-    //     width: 80%;
-    // }
+    .imagenDos {
+        grid-area: img2;
+        height: auto;
+    }
 
-    // .imagenTres {
-    //     grid-area: img3;
-    //     width: 80%;
-    // }
+    .imagenTres {
+        grid-area: img3;
+    height: auto;
+    }
 
-    // .imagenCuatro {
-    //     grid-area: img4;
-    //     width: 80%;
-    // }
+    .imagenCuatro {
+        grid-area: img4;
+        height: auto;
+    }
 
     .carousel__galeria img {
         height: auto;
