@@ -1067,8 +1067,8 @@ textarea {
     /* -----------------------------------------MAIN ALOJAMIENTO TABLET------------------------ */
     /* --------------------------------------------------------------------------------------- */
 
-    .main__galeria {
-        margin-top: 7rem;
+    .main__alojamiento {
+        margin-top: 15%;
     }
 
     .titulo__alojamiento h2 {
@@ -1493,6 +1493,11 @@ textarea {
 /* ------------------------------------------------------------------------------------------------ */
 /*-------------- ---------------------------GALERIA TABLET --------------------------------------- */
 /* ---------------------------------------------------------------------------------------------- */
+
+
+.main__galeria{
+    margin-top: 15%;
+}
 
     .titulo__galeriaFotos {
         font-size: 1.8rem;
@@ -2249,7 +2254,7 @@ textarea {
 
 
     .main__descripcionGaleria4 h3 {
-        margin: 1rem;
+        margin: 1rem;   
         color: black;
         font-size: 1rem;
         font-family: 'Ubuntu Condensed', sans-serif;
