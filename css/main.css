@@ -2369,6 +2369,9 @@ textarea {
   /*                            main servicios                        */
   /*                                                                    */
   /**********************************************************************/
+  .main__serv {
+    margin-top: 30%;
+  }
   .grid {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
