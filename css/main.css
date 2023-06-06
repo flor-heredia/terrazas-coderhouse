@@ -90,7 +90,7 @@ header nav div {
 /* ------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------- FOOTER---------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
-footer {
+.grid__footer {
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 400;
   font-size: 10pt;
@@ -105,12 +105,17 @@ footer {
   width: 100%;
   height: 450px;
 }
-footer img {
+
+/* -------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------SE PERSONALIZA LA UBICACION----------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+.grid__footer img {
   width: 3rem;
   height: 3rem;
   padding: 2px 2px;
 }
-footer .ubicacion__cabanas {
+
+.ubicacion__cabanas {
   grid-area: ubicacion__cabanas;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,28 +127,39 @@ footer .ubicacion__cabanas {
       -ms-flex-align: center;
           align-items: center;
 }
-footer .ubicacion__cabanas .titulo__descripcion {
-  color: white;
-  font-weight: bold;
-  font-size: 15pt;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-footer .ubicacion__mapa {
+
+.ubicacion__mapa {
   grid-area: ubicacion__mapa;
   justify-self: center;
   align-self: center;
 }
-footer .ubicacion__mapa iframe {
+
+.ubicacion__mapa iframe {
   width: 15rem;
   height: 15rem;
   margin: 1rem;
 }
-footer .ubicacion__mapa iframe:hover {
+
+.ubicacion__mapa iframe:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-footer .donde__contactarnos {
+
+.titulo__predescripcion {
+  margin-bottom: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*-----------------------------SE PERSONALIZA EL CONTACTO----------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.titulo__descripcion {
+  color: white;
+  font-weight: bold;
+  font-size: 15pt;
+  text-transform: uppercase;
+}
+
+.donde__contactarnos {
   grid-area: donde__contactarnos;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,19 +171,14 @@ footer .donde__contactarnos {
       -ms-flex-align: center;
           align-items: center;
 }
-footer .donde__contactarnos .titulo__descripcion {
-  color: white;
-  font-weight: bold;
-  font-size: 15pt;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-footer .descripcion__contacto {
+
+.descripcion__contacto {
   grid-area: descripcion__contacto;
   justify-self: center;
   align-self: center;
 }
-footer .descripcion__contacto .descripcion__contacto2 {
+
+.descripcion__contacto2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,31 +187,40 @@ footer .descripcion__contacto .descripcion__contacto2 {
       -ms-flex-pack: center;
           justify-content: center;
 }
-footer .descripcion__contacto .descripcion__contacto2 p {
+
+.descripcion__contacto2 p {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 1.3rem;
   color: white;
 }
-footer .descripcion__contacto .descripcion__contacto2 img {
+
+.descripcion__contacto2 img {
   width: 28px;
   height: 28px;
 }
-footer .descripcion__contacto .descripcion__contacto2 img:hover {
+
+.descripcion__contacto2 img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
-footer .donde__nosencontramos {
+
+.donde__nosencontramos {
   grid-area: donde__nosencontramos;
-  align-self: center;
   justify-self: center;
+  align-self: center;
 }
-footer .donde__nosencontramos p {
+
+.donde__nosencontramos p {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 1.3rem;
   color: white;
   text-align: center;
 }
-footer .redes__sociales {
+
+/* -------------------------------------------------------------------------------------------------------------- */
+/*--------------------------------------------PERSONALIZA REDES SOCIALES---------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+.redes__sociales {
   grid-area: redes__sociales;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,7 +233,8 @@ footer .redes__sociales {
           align-items: center;
   line-height: 1;
 }
-footer .redes__sociales p {
+
+.redes__sociales p {
   font-family: "Ubuntu Condensed", sans-serif;
   font-size: 1.3rem;
   color: white;
@@ -221,27 +242,20 @@ footer .redes__sociales p {
   line-height: 1;
   padding: 2px 2px;
 }
-footer .redes__sociales img {
+
+.redes__sociales img {
   margin: 0.5rem;
   width: 2rem;
   height: 2rem;
 }
-footer .redes__sociales img:hover {
+
+.redes__sociales img:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
-/*------------------------------------SE PERSONALIZA LA UBICACION----------------------------------------------- */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------------ */
-/*-----------------------------SE PERSONALIZA EL CONTACTO----------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------- */
-/* -------------------------------------------------------------------------------------------------------------- */
-/*--------------------------------------------PERSONALIZA REDES SOCIALES---------------------------------------- */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* -------------------------------------------------------------------------------------------------------------- */
-/*-------------------------------------------PERSOBALIZA COPYRIGHT---------------------------------------------- */
+/*-------------------------------------------PERSOBALIZA COPYRIGHT------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
 .copy__right {
   grid-area: copy__right;
