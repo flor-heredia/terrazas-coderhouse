@@ -1,9 +1,8 @@
-
 /* ------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------- FOOTER---------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------------------------- */
 
-.grid__footer {
+footer {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: 400;
     font-size: 10pt;
@@ -21,136 +20,362 @@
         "copy__right copy__right copy__right";
     width: 100%;
     height: 450px;
-}
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        padding: 2px 2px;
+    }
+
+    .ubicacion__cabanas {
+        grid-area: ubicacion__cabanas;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .titulo__descripcion {
+            color: white;
+            font-weight: bold;
+            font-size: 15pt;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+    }
+
+    .ubicacion__mapa {
+        grid-area: ubicacion__mapa;
+        justify-self: center;
+        align-self: center;
+
+        iframe {
+            width: 15rem;
+            height: 15rem;
+            margin: 1rem;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .donde__contactarnos {
+        grid-area: donde__contactarnos;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .titulo__descripcion {
+            color: white;
+            font-weight: bold;
+            font-size: 15pt;
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+
+    }
+
+    .descripcion__contacto {
+        grid-area: descripcion__contacto;
+        justify-self: center;
+        align-self: center;
+        
+
+        .descripcion__contacto2 {
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+
+            p {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                font-size: 1.3rem;
+                color: white;
+            }
+
+            img {
+                width: 28px;
+                height: 28px;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+
+        }
+    }
+
+        .donde__nosencontramos {
+            grid-area: donde__nosencontramos;
+            align-self: center;
+            justify-self: center;
+
+            p {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                font-size: 1.3rem;
+                color: white;
+                text-align: center;
+            }
+
+        }
+
+        .redes__sociales {
+            grid-area: redes__sociales;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1;
+
+            p {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                font-size: 1.3rem;
+                color: white;
+                margin-bottom: 0;
+                line-height: 1;
+                padding: 2px 2px;
+            }
+
+            img {
+                margin: 0.5rem;
+                width: 2rem;
+                height: 2rem;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+
+            }
+        }
+    }
 
 
 
-/* -------------------------------------------------------------------------------------------------------------- */
-/*------------------------------------SE PERSONALIZA LA UBICACION----------------------------------------------- */
-/* ------------------------------------------------------------------------------------------------------------ */
+    // .grid__footer {
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     font-weight: 400;
+    //     font-size: 10pt;
+    //     display: grid;
+    //     background-color: black;
+    //     grid-template-columns: 1fr 1fr 1fr;
+    //     grid-template-rows: 0.5fr 3fr 1fr 1fr;
+    //     gap: 1px 1px;
+    //     padding: 10px 0 0 0;
+    //     grid-auto-flow: row;
+    //     grid-template-areas:
+    //         "ubicacion__cabanas ... donde__contactarnos "
+    //         "ubicacion__mapa ...  descripcion__contacto "
+    //         "donde__nosencontramos ...  redes__sociales "
+    //         "copy__right copy__right copy__right";
+    //     width: 100%;
+    //     height: 450px;
+    // }
 
-.grid__footer img {
-    width: 3rem;
-    height: 3rem;
-    padding: 2px 2px;
-}
 
-.ubicacion__cabanas {
-    grid-area: ubicacion__cabanas;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.ubicacion__mapa {
-    grid-area: ubicacion__mapa;
-    justify-self: center;
-    align-self: center;
-}
+    /* -------------------------------------------------------------------------------------------------------------- */
+    /*------------------------------------SE PERSONALIZA LA UBICACION----------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------ */
 
-.ubicacion__mapa iframe {
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem;
-}
+    // img {
+    //     width: 3rem;
+    //     height: 3rem;
+    //     padding: 2px 2px;
+    // }
 
-.ubicacion__mapa iframe:hover {
-    transform: scale(1.1);
-}
+    // .ubicacion__cabanas {
+    //     grid-area: ubicacion__cabanas;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
 
-.titulo__predescripcion {
-    margin-bottom: 0;
-}
+    // .ubicacion__mapa {
+    //     grid-area: ubicacion__mapa;
+    //     justify-self: center;
+    //     align-self: center;
+    // }
 
-/* ------------------------------------------------------------------------------------------------------------------ */
-/*-----------------------------SE PERSONALIZA EL CONTACTO----------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------- */
+    // .ubicacion__mapa iframe {
+    //     width: 15rem;
+    //     height: 15rem;
+    //     margin: 1rem;
+    // }
 
-.titulo__descripcion {
-    color: white;
-    font-weight: bold;
-    font-size: 15pt;
-    text-transform: uppercase;
-}
+    // .ubicacion__mapa iframe:hover {
+    //     transform: scale(1.1);
+    // }
 
-.donde__contactarnos {
-    grid-area: donde__contactarnos;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    // .titulo__predescripcion {
+    //     margin-bottom: 0;
+    // }
 
-.descripcion__contacto {
-    grid-area: descripcion__contacto;
-    justify-self: center;
-    align-self: center;
-}
+    /* ------------------------------------------------------------------------------------------------------------------ */
+    /*-----------------------------SE PERSONALIZA EL CONTACTO----------------------------------------------------------- */
+    /* ---------------------------------------------------------------------------------------------------------------- */
 
-.descripcion__contacto2 {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-}
+    // .titulo__descripcion {
+    //     color: white;
+    //     font-weight: bold;
+    //     font-size: 15pt;
+    //     text-transform: uppercase;
+    //     margin-bottom: 0;
+    // }
 
-.descripcion__contacto2 p {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1.3rem;
-    color: white;
-}
+    // .titulo__predescripcion {
+    //     margin-bottom: 0;
+    // }
 
-.descripcion__contacto2 img {
-    width: 28px;
-    height: 28px;
-}
 
-.descripcion__contacto2 img:hover {
-    transform: scale(1.2);
-}
+    // .donde__contactarnos {
+    //     grid-area: donde__contactarnos;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
 
-.donde__nosencontramos {
-    grid-area: donde__nosencontramos;
-    justify-self: center;
-    align-self: center;
-}
+    //     .titulo__descripcion {
+    //         color: white;
+    //         font-weight: bold;
+    //         font-size: 15pt;
+    //         text-transform: uppercase;
+    //         margin-bottom: 0;
+    //     }
 
-.donde__nosencontramos p {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1.3rem;
-    color: white;
-    text-align: center;
-}
+    // }
+
+    // .descripcion__contacto {
+    //     grid-area: descripcion__contacto;
+    //     justify-self: center;
+    //     align-self: center;
+
+    //     .descripcion__contacto2 {
+    //         display: flex;
+    //         padding: 10px;
+    //         justify-content: center;
+
+    //         p {
+    //             font-family: 'Ubuntu Condensed', sans-serif;
+    //             font-size: 1.3rem;
+    //             color: white;
+    //         }
+
+    //         img {
+    //             width: 28px;
+    //             height: 28px;
+
+    //             &:hover {
+    //                 transform: scale(1.2);
+    //             }
+    //         }
+
+    //     }
+
+    // .donde__nosencontramos {
+    //     grid-area: donde__nosencontramos;
+    //     justify-self: center;
+    //     align-self: center;
+    //     p {
+    //         font-family: 'Ubuntu Condensed', sans-serif;
+    //         font-size: 1.3rem;
+    //         color: white;
+    //         text-align: center;
+    //     }
+
+    // }
+
+    // .redes__sociales {
+    //     grid-area: redes__sociales;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     line-height: 1;
+
+    //     p {
+    //         font-family: 'Ubuntu Condensed', sans-serif;
+    //         font-size: 1.3rem;
+    //         color: white;
+    //         margin-bottom: 0;
+    //         line-height: 1;
+    //         padding: 2px 2px;
+    //     }
+
+    //     img {
+    //         margin: 0.5rem;
+    //         width: 2rem;
+    //         height: 2rem;
+    //         &:hover {
+    //             transform: scale(1.3);
+    //         }
+
+    //     }
+    // }
+
+
+
+
+
+// .descripcion__contacto2 {
+//     display: flex;
+//     padding: 10px;
+//     justify-content: center;
+// }
+
+// .descripcion__contacto2 p {
+//     font-family: 'Ubuntu Condensed', sans-serif;
+//     font-size: 1.3rem;
+//     color: white;
+// }
+
+// .descripcion__contacto2 img {
+//     width: 28px;
+//     height: 28px;
+// }
+
+// .descripcion__contacto2 img:hover {
+//     transform: scale(1.2);
+// }
+
+// .donde__nosencontramos {
+//     grid-area: donde__nosencontramos;
+//     justify-self: center;
+//     align-self: center;
+// }
+
+// .donde__nosencontramos p {
+//     font-family: 'Ubuntu Condensed', sans-serif;
+//     font-size: 1.3rem;
+//     color: white;
+//     text-align: center;
+// }
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
 /*--------------------------------------------PERSONALIZA REDES SOCIALES---------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
 
-.redes__sociales {
-    grid-area: redes__sociales;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1;
-}
+// .redes__sociales {
+//     grid-area: redes__sociales;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     line-height: 1;
+// }
 
-.redes__sociales p {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 1.3rem;
-    color: white;
-    margin-bottom: 0;
-    line-height: 1;
-    padding: 2px 2px;
-}
+// .redes__sociales p {
+//     font-family: 'Ubuntu Condensed', sans-serif;
+//     font-size: 1.3rem;
+//     color: white;
+//     margin-bottom: 0;
+//     line-height: 1;
+//     padding: 2px 2px;
+// }
 
-.redes__sociales img {
-    margin: 0.5rem;
-    width: 2rem;
-    height: 2rem;
-}
+// .redes__sociales img {
+//     margin: 0.5rem;
+//     width: 2rem;
+//     height: 2rem;
+// }
 
-.redes__sociales img:hover {
-    transform: scale(1.3);
-}
+// .redes__sociales img:hover {
+//     transform: scale(1.3);
+// }
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
