@@ -1987,60 +1987,128 @@ textarea {
 /*-------------------------------------------- HEADER MOBILE---------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
 
-    header {
-        display: flex;
-        justify-content: center;
-    }
 
-    header * {
-        display: flex;
-        align-self: center;
-        text-decoration: none;
-        list-style-type: none;
-        color: white;
-    }
 
-    .navbar-brand img {
-        width: 5rem;
-        height: 5rem;
-        transition: .3s linear;
-    }
-
-    .navbar-brand img:hover {
-        transform: scale(1.1);
-        filter: opacity(50%);
-    }
-
-    .navbar-brand h1 {
-        margin: 1.5rem;
-        font-size: 1.2rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-align: center;
-    }
-
-    header nav div {
-        background-color: black;
-    }
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 
     .navbar {
         --bs-navbar-padding-y: 0;
         width: 100%;
+
+        div {
+            background-color: rgb(17, 16, 16);
+        }
+
+
+
+        .navbar-brand {
+            img {
+                width: 6.5rem;
+                height: 6.5rem;
+                transition: .3s linear;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: opacity(50%);
+                }
+            }
+
+            h1 {
+                margin: 1.5rem;
+                font-size: 1.3rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+                text-align: center;
+            }
+
+        }
+
+
+
+        .navbar-nav {
+            margin: auto;
+
+            .nav-link {
+                font-size: 1rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                margin: 1rem;
+
+                &:hover {
+                    color: rgba(252, 102, 33, 1);
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
     }
+}
 
 
-    .navbar-nav {
-        margin: 0rem;
-    }
+    // header {
+    //     display: flex;
+    //     justify-content: center;
+    // }
+
+    // header * {
+    //     display: flex;
+    //     align-self: center;
+    //     text-decoration: none;
+    //     list-style-type: none;
+    //     color: white;
+    // }
+
+    // .navbar-brand img {
+    //     width: 5rem;
+    //     height: 5rem;
+    //     transition: .3s linear;
+    // }
+
+    // .navbar-brand img:hover {
+    //     transform: scale(1.1);
+    //     filter: opacity(50%);
+    // }
+
+    // .navbar-brand h1 {
+    //     margin: 1.5rem;
+    //     font-size: 1.2rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-align: center;
+    // }
+
+    // header nav div {
+    //     background-color: black;
+    // }
+
+    // .navbar {
+    //     --bs-navbar-padding-y: 0;
+    //     width: 100%;
+    // }
 
 
-    .nav-link {
-        font-size: 1rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: white;
-        margin: 1rem;
-    }
+    // .navbar-nav {
+    //     margin: 0rem;
+    // }
+
+
+    // .nav-link {
+    //     font-size: 1rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: white;
+    //     margin: 1rem;
+    // }
 
 
 /* -------------------------------------------------------------------------------------------------------------- */
