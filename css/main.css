@@ -2101,8 +2101,8 @@ textarea {
     background-color: rgb(17, 16, 16);
   }
   header .navbar .navbar-brand img {
-    width: 5rem;
-    height: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
     -webkit-transition: 0.3s linear;
     transition: 0.3s linear;
   }
@@ -2125,7 +2125,7 @@ textarea {
     margin: auto;
   }
   header .navbar .navbar-nav .nav-link {
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: bolder;
     font-family: "Ubuntu Condensed", sans-serif;
     color: white;
