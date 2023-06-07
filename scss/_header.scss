@@ -1,4 +1,3 @@
-
 /* -------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------- HEADER----------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -6,79 +5,153 @@
 /* ----------------------------------------------------------------------------------------------------------- */
 /*----------------------- Aca comienza la personalizacion del "HEADER" en general---------------------------- */
 /* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
 header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 999;
+
+    .navbar {
+        --bs-navbar-padding-y: 0;
+        width: 100%;
+
+        div {
+            background-color: rgb(17, 16, 16);
+        }
+
+
+
+        .navbar-brand {
+            img {
+                width: 8rem;
+                height: 8rem;
+                transition: .3s linear;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: opacity(50%);
+                }
+            }
+
+            h1 {
+                margin: 1.5rem;
+                font-size: 1.7rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+                text-align: center;
+            }
+
+        }
+
+
+
+        .navbar-nav {
+            margin: auto;
+
+            .nav-link {
+                font-size: 1.5rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                margin: 1rem;
+
+                &:hover {
+                    color: rgba(252, 102, 33, 1);
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
+    }
 }
 
-header * {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-    align-self: center;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-}
+
+
+
+
+
+// header {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     justify-content: center;
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 999;
+// }
+
+// header * {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-item-align: center;
+//     align-self: center;
+//     text-decoration: none;
+//     list-style-type: none;
+//     color: white;
+// }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Aca comienza la personalizacion de la "NAVBAR cabe aclarar que tambien fue traida de BS" y se le realizan las aplicaciones correspondientes */
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
-.navbar-brand img {
-    width: 8rem;
-    height: 8rem;
-    -webkit-transition: 0.3s linear;
-    transition: 0.3s linear;
-}
+// .navbar-brand img {
+//     width: 8rem;
+//     height: 8rem;
+//     -webkit-transition: 0.3s linear;
+//     transition: 0.3s linear;
+// }
 
-.navbar-brand img:hover {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    -webkit-filter: opacity(50%);
-    filter: opacity(50%);
-}
+// .navbar-brand img:hover {
+//     -webkit-transform: scale(1.1);
+//     transform: scale(1.1);
+//     -webkit-filter: opacity(50%);
+//     filter: opacity(50%);
+// }
 
-.navbar-brand h1 {
-    margin: 1.5rem;
-    font-size: 1.7rem;
-    font-weight: bolder;
-    font-family: "Ubuntu Condensed", sans-serif;
-    text-shadow: 4px 4px 7px rgb(252, 102, 33);
-    text-align: center;
-}
+// .navbar-brand h1 {
+//     margin: 1.5rem;
+//     font-size: 1.7rem;
+//     font-weight: bolder;
+//     font-family: "Ubuntu Condensed", sans-serif;
+//     text-shadow: 4px 4px 7px rgb(252, 102, 33);
+//     text-align: center;
+// }
 
-header nav div {
-    background-color: rgb(17, 16, 16);
-}
+// header nav div {
+//     background-color: rgb(17, 16, 16);
+// }
 
-.navbar {
-    --bs-navbar-padding-y: 0;
-    width: 100%;
-}
+// .navbar {
+//     --bs-navbar-padding-y: 0;
+//     width: 100%;
+// }
 
-.navbar-nav {
-    margin: auto;
-}
+// .navbar-nav {
+//     margin: auto;
+// }
 
-.nav-link {
-    font-size: 1.5rem;
-    font-weight: bolder;
-    font-family: "Ubuntu Condensed", sans-serif;
-    color: white;
-    margin: 1rem;
-}
+// .nav-link {
+//     font-size: 1.5rem;
+//     font-weight: bolder;
+//     font-family: "Ubuntu Condensed", sans-serif;
+//     color: white;
+//     margin: 1rem;
+// }
 
-.nav-link:hover {
-    color: rgb(252, 102, 33);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
+// .nav-link:hover {
+//     color: rgb(252, 102, 33);
+//     -webkit-transform: scale(1.2);
+//     transform: scale(1.2);
+// }
