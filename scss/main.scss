@@ -2009,8 +2009,8 @@ header {
 
         .navbar-brand {
             img {
-                width: 6rem;
-                height: 6rem;
+                width: 5rem;
+                height: 5rem;
                 transition: .3s linear;
 
                 &:hover {
@@ -2021,7 +2021,7 @@ header {
 
             h1 {
                 margin: 1.5rem;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 font-weight: bolder;
                 font-family: 'Ubuntu Condensed', sans-serif;
                 color: white;
@@ -2042,6 +2042,7 @@ header {
                 font-family: 'Ubuntu Condensed', sans-serif;
                 color: white;
                 margin: 1rem;
+                text-align: center;
 
                 &:hover {
                     color: rgba(252, 102, 33, 1);
