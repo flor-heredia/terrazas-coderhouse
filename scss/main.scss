@@ -989,55 +989,127 @@ textarea {
 /*------------------------------------------HEADER TABLET------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
 
-    main {
-        margin-top: 7rem;
-    }
 
-    .navbar-brand img {
-        width: 6rem;
-        height: 6rem;
-        transition: .3s linear;
-    }
 
-    .navbar-brand img:hover {
-        transform: scale(1.1);
-        filter: opacity(50%);
-    }
-
-    .navbar-brand h1 {
-        margin: 1.5rem;
-        font-size: 1.7rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
-        text-align: center;
-    }
-
-    header nav div {
-        background-color: rgb(17, 16, 16);
-    }
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 
     .navbar {
         --bs-navbar-padding-y: 0;
         width: 100%;
-    }
 
-    .navbar-nav {
-        margin: auto;
-    }
+        div {
+            background-color: rgb(17, 16, 16);
+        }
 
-    .nav-link {
-        font-size: 1.5rem;
-        font-weight: bolder;
-        font-family: 'Ubuntu Condensed', sans-serif;
-        color: white;
-        margin: 1rem;
-    }
 
-    .nav-link:hover {
-        color: rgba(252, 102, 33, 1);
-        transform: scale(1.2);
+
+        .navbar-brand {
+            img {
+                width: 8rem;
+                height: 8rem;
+                transition: .3s linear;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: opacity(50%);
+                }
+            }
+
+            h1 {
+                margin: 1.5rem;
+                font-size: 1.7rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+                text-align: center;
+            }
+
+        }
+
+
+
+        .navbar-nav {
+            margin: auto;
+
+            .nav-link {
+                font-size: 1.5rem;
+                font-weight: bolder;
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: white;
+                margin: 1rem;
+                text-align: center;
+
+                &:hover {
+                    color: rgba(252, 102, 33, 1);
+                    transform: scale(1.2);
+                }
+
+            }
+
+        }
     }
+}
+
+
+
+
+
+    // main {
+    //     margin-top: 7rem;
+    // }
+
+    // .navbar-brand img {
+    //     width: 6rem;
+    //     height: 6rem;
+    //     transition: .3s linear;
+    // }
+
+    // .navbar-brand img:hover {
+    //     transform: scale(1.1);
+    //     filter: opacity(50%);
+    // }
+
+    // .navbar-brand h1 {
+    //     margin: 1.5rem;
+    //     font-size: 1.7rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     text-shadow: 4px 4px 7px rgba(252, 102, 33, 1);
+    //     text-align: center;
+    // }
+
+    // header nav div {
+    //     background-color: rgb(17, 16, 16);
+    // }
+
+    // .navbar {
+    //     --bs-navbar-padding-y: 0;
+    //     width: 100%;
+    // }
+
+    // .navbar-nav {
+    //     margin: auto;
+    // }
+
+    // .nav-link {
+    //     font-size: 1.5rem;
+    //     font-weight: bolder;
+    //     font-family: 'Ubuntu Condensed', sans-serif;
+    //     color: white;
+    //     margin: 1rem;
+    // }
+
+    // .nav-link:hover {
+    //     color: rgba(252, 102, 33, 1);
+    //     transform: scale(1.2);
+    // }
 
 /* -------------------------------------------------------------------------------------------------------------- */
 /*------------------------------------------MAIN INDEX TABLET--------------------------------------------------- */
@@ -1986,7 +2058,6 @@ textarea {
 /* -------------------------------------------------------------------------------------------------------------- */
 /*-------------------------------------------- HEADER MOBILE---------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------ */
-
 
 
 header {
